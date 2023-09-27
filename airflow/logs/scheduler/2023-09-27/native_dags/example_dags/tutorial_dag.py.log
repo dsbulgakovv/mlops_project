@@ -1,0 +1,12 @@
+[2023-09-28T00:50:20.049+0300] {processor.py:157} INFO - Started process (PID=10271) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-09-28T00:50:20.050+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-09-28T00:50:20.051+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:20.050+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-09-28T00:50:20.058+0300] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-09-28T00:50:20.116+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:20.116+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:20.121+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:20.120+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:20.123+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:20.123+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:20.124+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:20.123+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:tutorial_dag' as access control is unset.
+[2023-09-28T00:50:20.124+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:20.124+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T00:50:20.128+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:20.128+0300] {dag.py:2937} INFO - Creating ORM DAG for tutorial_dag
+[2023-09-28T00:50:20.128+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:20.128+0300] {dag.py:3696} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-09-28T00:50:20.136+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.092 seconds

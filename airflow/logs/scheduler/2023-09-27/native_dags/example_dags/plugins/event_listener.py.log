@@ -1,0 +1,5 @@
+[2023-09-28T00:50:43.802+0300] {processor.py:157} INFO - Started process (PID=10299) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-28T00:50:43.803+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2023-09-28T00:50:43.804+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:43.803+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-28T00:50:43.805+0300] {processor.py:841} WARNING - No viable dags retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-28T00:50:43.813+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.013 seconds

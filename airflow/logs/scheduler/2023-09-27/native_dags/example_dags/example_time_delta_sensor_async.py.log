@@ -1,0 +1,12 @@
+[2023-09-28T00:50:39.332+0300] {processor.py:157} INFO - Started process (PID=10290) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-09-28T00:50:39.333+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2023-09-28T00:50:39.334+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.333+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-09-28T00:50:39.339+0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-09-28T00:50:39.398+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.398+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:39.402+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.402+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:39.406+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.406+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:39.406+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.406+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_time_delta_sensor_async' as access control is unset.
+[2023-09-28T00:50:39.407+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.407+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T00:50:39.410+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.410+0300] {dag.py:2937} INFO - Creating ORM DAG for example_time_delta_sensor_async
+[2023-09-28T00:50:39.411+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.411+0300] {dag.py:3696} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2023-09-28T00:50:39.418+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.091 seconds

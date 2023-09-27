@@ -1,0 +1,12 @@
+[2023-09-28T00:50:38.183+0300] {processor.py:157} INFO - Started process (PID=10289) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-09-28T00:50:38.184+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-09-28T00:50:38.185+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:38.184+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-09-28T00:50:38.190+0300] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-09-28T00:50:38.250+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:38.250+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:38.256+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:38.256+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:38.259+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:38.259+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:38.259+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:38.259+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:tutorial_taskflow_api' as access control is unset.
+[2023-09-28T00:50:38.260+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:38.260+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T00:50:38.264+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:38.264+0300] {dag.py:2937} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2023-09-28T00:50:38.264+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:38.264+0300] {dag.py:3696} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-09-28T00:50:38.273+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.093 seconds

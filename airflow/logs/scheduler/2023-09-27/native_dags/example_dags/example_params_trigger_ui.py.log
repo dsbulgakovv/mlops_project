@@ -1,0 +1,19 @@
+[2023-09-28T00:50:08.047+0300] {processor.py:157} INFO - Started process (PID=10239) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-09-28T00:50:08.048+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2023-09-28T00:50:08.048+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:08.048+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-09-28T00:50:08.058+0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-09-28T00:50:08.116+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:08.116+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:08.120+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:08.120+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:08.124+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:08.124+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:08.124+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:08.124+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_params_trigger_ui' as access control is unset.
+[2023-09-28T00:50:08.124+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:08.124+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T00:50:08.129+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:08.128+0300] {dag.py:2937} INFO - Creating ORM DAG for example_params_trigger_ui
+[2023-09-28T00:50:08.129+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:08.129+0300] {dag.py:3696} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2023-09-28T00:50:08.139+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.094 seconds
+[2023-09-28T00:50:55.096+0300] {processor.py:157} INFO - Started process (PID=10310) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-09-28T00:50:55.097+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2023-09-28T00:50:55.098+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:55.098+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-09-28T00:50:55.115+0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-09-28T00:50:55.141+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:55.141+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T00:50:55.146+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:55.146+0300] {dag.py:3696} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2023-09-28T00:50:55.156+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.064 seconds

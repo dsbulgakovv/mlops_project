@@ -1,0 +1,12 @@
+[2023-09-28T00:50:36.944+0300] {processor.py:157} INFO - Started process (PID=10288) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2023-09-28T00:50:36.945+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2023-09-28T00:50:36.946+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:36.945+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2023-09-28T00:50:36.956+0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_short_circuit_decorator']) retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2023-09-28T00:50:37.014+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:37.013+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:37.019+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:37.018+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:37.022+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:37.022+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:37.022+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:37.022+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_short_circuit_decorator' as access control is unset.
+[2023-09-28T00:50:37.022+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:37.022+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T00:50:37.026+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:37.026+0300] {dag.py:2937} INFO - Creating ORM DAG for example_short_circuit_decorator
+[2023-09-28T00:50:37.029+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:37.029+0300] {dag.py:3696} INFO - Setting next_dagrun for example_short_circuit_decorator to 2023-09-26T21:50:37.029414+00:00, run_after=2023-09-27T21:50:37.029414+00:00
+[2023-09-28T00:50:37.037+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.098 seconds

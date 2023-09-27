@@ -1,0 +1,12 @@
+[2023-09-28T00:50:39.692+0300] {processor.py:157} INFO - Started process (PID=10291) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-09-28T00:50:39.693+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-09-28T00:50:39.695+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.694+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-09-28T00:50:39.704+0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-09-28T00:50:39.765+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.765+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:39.770+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.770+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:39.773+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.773+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:39.773+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.773+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_setup_teardown' as access control is unset.
+[2023-09-28T00:50:39.773+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.773+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T00:50:39.778+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.778+0300] {dag.py:2937} INFO - Creating ORM DAG for example_setup_teardown
+[2023-09-28T00:50:39.781+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:39.781+0300] {dag.py:3696} INFO - Setting next_dagrun for example_setup_teardown to 2023-09-26T21:50:39.781601+00:00, run_after=2023-09-27T21:50:39.781601+00:00
+[2023-09-28T00:50:39.790+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.102 seconds

@@ -1,0 +1,12 @@
+[2023-09-28T00:50:49.826+0300] {processor.py:157} INFO - Started process (PID=10304) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-09-28T00:50:49.827+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2023-09-28T00:50:49.828+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:49.828+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-09-28T00:50:49.837+0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_python_operator_decorator']) retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-09-28T00:50:49.903+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:49.902+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:49.908+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:49.907+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:49.911+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:49.911+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:49.911+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:49.911+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_branch_python_operator_decorator' as access control is unset.
+[2023-09-28T00:50:49.911+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:49.911+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T00:50:49.916+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:49.916+0300] {dag.py:2937} INFO - Creating ORM DAG for example_branch_python_operator_decorator
+[2023-09-28T00:50:49.920+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:49.919+0300] {dag.py:3696} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2023-09-26T00:00:00+00:00, run_after=2023-09-27T00:00:00+00:00
+[2023-09-28T00:50:49.928+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.107 seconds

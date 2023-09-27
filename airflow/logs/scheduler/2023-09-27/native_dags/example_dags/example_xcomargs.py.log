@@ -1,0 +1,18 @@
+[2023-09-28T00:50:27.590+0300] {processor.py:157} INFO - Started process (PID=10278) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-09-28T00:50:27.591+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2023-09-28T00:50:27.592+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.591+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-09-28T00:50:27.601+0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-09-28T00:50:27.663+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.663+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:27.668+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.668+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:27.671+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.671+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:27.671+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.671+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_xcom_args' as access control is unset.
+[2023-09-28T00:50:27.679+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.679+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:27.682+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.682+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:27.686+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.686+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:27.686+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.686+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_xcom_args_with_operators' as access control is unset.
+[2023-09-28T00:50:27.686+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.686+0300] {dag.py:2915} INFO - Sync 2 DAGs
+[2023-09-28T00:50:27.691+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.690+0300] {dag.py:2937} INFO - Creating ORM DAG for example_xcom_args
+[2023-09-28T00:50:27.691+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.691+0300] {dag.py:2937} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2023-09-28T00:50:27.691+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.691+0300] {dag.py:3696} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2023-09-28T00:50:27.691+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:27.691+0300] {dag.py:3696} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2023-09-28T00:50:27.699+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.114 seconds

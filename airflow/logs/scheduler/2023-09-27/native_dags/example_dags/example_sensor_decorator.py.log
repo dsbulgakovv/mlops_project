@@ -1,0 +1,12 @@
+[2023-09-28T00:50:12.019+0300] {processor.py:157} INFO - Started process (PID=10251) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-09-28T00:50:12.021+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-09-28T00:50:12.022+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:12.021+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-09-28T00:50:12.031+0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-09-28T00:50:12.091+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:12.091+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:12.096+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:12.096+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:12.099+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:12.099+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-28T00:50:12.099+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:12.099+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_sensor_decorator' as access control is unset.
+[2023-09-28T00:50:12.099+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:12.099+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T00:50:12.103+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:12.103+0300] {dag.py:2937} INFO - Creating ORM DAG for example_sensor_decorator
+[2023-09-28T00:50:12.103+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:12.103+0300] {dag.py:3696} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-09-28T00:50:12.111+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.096 seconds

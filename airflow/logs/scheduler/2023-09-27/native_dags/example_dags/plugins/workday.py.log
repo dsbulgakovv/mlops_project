@@ -1,0 +1,5 @@
+[2023-09-28T00:50:43.365+0300] {processor.py:157} INFO - Started process (PID=10294) to work on /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-09-28T00:50:43.366+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-09-28T00:50:43.367+0300] {logging_mixin.py:151} INFO - [2023-09-28T00:50:43.367+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-09-28T00:50:43.649+0300] {processor.py:841} WARNING - No viable dags retrieved from /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-09-28T00:50:43.652+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.291 seconds
