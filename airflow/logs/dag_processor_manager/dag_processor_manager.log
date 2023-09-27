@@ -336,3 +336,189 @@ File Path                                                           PID  Runtime
 /home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag.py  11532  0.00s             1           0  0.09s           2023-09-27T22:16:50
 ================================================================================
 [2023-09-28T01:17:42.973+0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-09-28T01:40:45.092+0300] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-09-28T01:40:45.093+0300] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-09-28T01:40:45.093+0300] {manager.py:489} INFO - Checking for new files in /home/dsbulgako1/my_repos/mlops_project/airflow/dags every 300 seconds
+[2023-09-28T01:40:45.093+0300] {manager.py:759} INFO - Searching for files in /home/dsbulgako1/my_repos/mlops_project/airflow/dags
+[2023-09-28T01:40:45.095+0300] {manager.py:762} INFO - There are 1 files in /home/dsbulgako1/my_repos/mlops_project/airflow/dags
+[2023-09-28T01:40:45.179+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py  12910  0.02s             0           0
+================================================================================
+[2023-09-28T01:41:15.306+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py  13005  0.00s             0           1  0.04s           2023-09-27T22:40:45
+================================================================================
+[2023-09-28T01:41:45.448+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py  13015  0.00s             0           1  0.04s           2023-09-27T22:41:15
+================================================================================
+[2023-09-28T01:42:15.649+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py  13027  0.01s             0           1  0.04s           2023-09-27T22:41:45
+================================================================================
+[2023-09-28T01:42:45.983+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py  13034  0.02s             0           1  0.06s           2023-09-27T22:42:15
+================================================================================
+[2023-09-28T01:43:16.260+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py  13041  0.01s             0           1  0.08s           2023-09-27T22:42:46
+================================================================================
+[2023-09-28T01:43:46.558+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py  13052  0.01s             0           1  0.06s           2023-09-27T22:43:16
+================================================================================
+[2023-09-28T01:44:16.732+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py  13069  0.00s             0           1  0.06s           2023-09-27T22:43:46
+================================================================================
+[2023-09-28T01:44:46.924+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py  13081  0.01s             0           1  0.04s           2023-09-27T22:44:16
+================================================================================
+[2023-09-28T01:45:17.135+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           0           1  0.04s           2023-09-27T22:45:01
+================================================================================
+[2023-09-28T01:45:45.286+0300] {manager.py:759} INFO - Searching for files in /home/dsbulgako1/my_repos/mlops_project/airflow/dags
+[2023-09-28T01:45:45.287+0300] {manager.py:762} INFO - There are 1 files in /home/dsbulgako1/my_repos/mlops_project/airflow/dags
+[2023-09-28T01:45:47.310+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           0           1  0.05s           2023-09-27T22:45:31
+================================================================================
+[2023-09-28T01:46:17.518+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           0           1  0.04s           2023-09-27T22:46:07
+================================================================================
+[2023-09-28T01:46:47.715+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           0           1  0.03s           2023-09-27T22:46:37
+================================================================================
+[2023-09-28T01:47:17.886+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           0           1  0.05s           2023-09-27T22:47:07
+================================================================================
+[2023-09-28T01:47:48.080+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           1           0  0.07s           2023-09-27T22:47:24
+================================================================================
+[2023-09-28T01:48:18.191+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           1           0  0.06s           2023-09-27T22:47:54
+================================================================================
+[2023-09-28T01:48:48.378+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           1           0  0.07s           2023-09-27T22:48:24
+================================================================================
+[2023-09-28T01:49:18.572+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           1           0  0.07s           2023-09-27T22:48:54
+================================================================================
+[2023-09-28T01:49:48.687+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           1           0  0.07s           2023-09-27T22:49:24
+================================================================================
+[2023-09-28T01:50:18.823+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           1           0  0.11s           2023-09-27T22:49:54
+================================================================================
+[2023-09-28T01:50:45.997+0300] {manager.py:759} INFO - Searching for files in /home/dsbulgako1/my_repos/mlops_project/airflow/dags
+[2023-09-28T01:50:45.999+0300] {manager.py:762} INFO - There are 1 files in /home/dsbulgako1/my_repos/mlops_project/airflow/dags
+[2023-09-28T01:50:49.017+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py                           1           0  0.09s           2023-09-27T22:50:24
+================================================================================
+[2023-09-28T01:51:19.156+0300] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/dsbulgako1/my_repos/mlops_project/airflow/dags/test_dag_mlops.py  13631  0.00s             1           0  0.10s           2023-09-27T22:50:49
+================================================================================
+[2023-09-28T01:51:28.803+0300] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
