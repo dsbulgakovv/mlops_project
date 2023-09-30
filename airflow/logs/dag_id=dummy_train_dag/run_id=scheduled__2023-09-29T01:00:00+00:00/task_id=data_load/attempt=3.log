@@ -1,0 +1,42 @@
+[2023-09-30T22:58:10.775+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [queued]>
+[2023-09-30T22:58:10.778+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [queued]>
+[2023-09-30T22:58:10.779+0300] {taskinstance.py:1359} INFO - Starting attempt 3 of 3
+[2023-09-30T22:58:10.842+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): data_load> on 2023-09-29 01:00:00+00:00
+[2023-09-30T22:58:10.845+0300] {standard_task_runner.py:57} INFO - Started process 20288 to run task
+[2023-09-30T22:58:10.849+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dummy_train_dag', 'data_load', 'scheduled__2023-09-29T01:00:00+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/test_dag_for_model_train.py', '--cfg-path', '/tmp/tmp_1ta_r_i']
+[2023-09-30T22:58:10.851+0300] {standard_task_runner.py:85} INFO - Job 33: Subtask data_load
+[2023-09-30T22:58:10.894+0300] {task_command.py:415} INFO - Running <TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-09-30T22:58:10.954+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@gmail.com' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='dummy_train_dag' AIRFLOW_CTX_TASK_ID='data_load' AIRFLOW_CTX_EXECUTION_DATE='2023-09-29T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-29T01:00:00+00:00'
+[2023-09-30T22:58:10.954+0300] {test_dag_for_model_train.py:55} INFO - Postgres connection initializing.
+[2023-09-30T22:58:10.965+0300] {base.py:73} INFO - Using connection ID 'pg_connection' for task execution.
+[2023-09-30T22:58:10.972+0300] {test_dag_for_model_train.py:60} INFO - Taking data from Postgres.
+[2023-09-30T22:58:10.983+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_for_model_train.py:61 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2023-09-30T22:58:11.043+0300] {test_dag_for_model_train.py:63} INFO - S3 connection initializing.
+[2023-09-30T22:58:11.053+0300] {base.py:73} INFO - Using connection ID 's3_connector' for task execution.
+[2023-09-30T22:58:11.054+0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='s3_connector', conn_type='aws') credentials retrieved from login and password.
+[2023-09-30T22:58:11.076+0300] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/dsbulgako1/my_repos/mlops_project/dags/test_dag_for_model_train.py", line 66, in get_data_from_postgres
+    resource = session.resource('s3')
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/boto3/session.py", line 446, in resource
+    client = self.client(
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/boto3/session.py", line 299, in client
+    return self._session.create_client(
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/session.py", line 924, in create_client
+    region_name = self._resolve_region_name(region_name, config)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/session.py", line 1023, in _resolve_region_name
+    validate_region_name(region_name)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/utils.py", line 1309, in validate_region_name
+    raise InvalidRegionError(region_name=region_name)
+botocore.exceptions.InvalidRegionError: Provided region_name 'ru_central1' doesn't match a supported format.
+[2023-09-30T22:58:11.090+0300] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=dummy_train_dag, task_id=data_load, execution_date=20230929T010000, start_date=20230930T195810, end_date=20230930T195811
+[2023-09-30T22:58:11.099+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2023-09-30T22:58:11.100+0300] {email.py:270} INFO - Email alerting: attempt 1
+[2023-09-30T22:58:11.485+0300] {email.py:282} INFO - Sent an alert email to ['dmitrii.bulghakov@gmail.com']
+[2023-09-30T22:58:12.225+0300] {standard_task_runner.py:104} ERROR - Failed to execute job 33 for task data_load (Provided region_name 'ru_central1' doesn't match a supported format.; 20288)
+[2023-09-30T22:58:12.267+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-09-30T22:58:12.286+0300] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,62 @@
+[2023-09-30T22:37:49.527+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [queued]>
+[2023-09-30T22:37:49.532+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [queued]>
+[2023-09-30T22:37:49.532+0300] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-09-30T22:37:49.608+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): data_load> on 2023-09-29 01:00:00+00:00
+[2023-09-30T22:37:49.621+0300] {standard_task_runner.py:57} INFO - Started process 18893 to run task
+[2023-09-30T22:37:49.630+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dummy_train_dag', 'data_load', 'scheduled__2023-09-29T01:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/test_dag_for_model_train.py', '--cfg-path', '/tmp/tmp1c8nlqga']
+[2023-09-30T22:37:49.633+0300] {standard_task_runner.py:85} INFO - Job 30: Subtask data_load
+[2023-09-30T22:37:49.693+0300] {task_command.py:415} INFO - Running <TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-09-30T22:37:49.771+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@gmail.com' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='dummy_train_dag' AIRFLOW_CTX_TASK_ID='data_load' AIRFLOW_CTX_EXECUTION_DATE='2023-09-29T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-29T01:00:00+00:00'
+[2023-09-30T22:37:49.772+0300] {test_dag_for_model_train.py:55} INFO - Postgres connection initializing.
+[2023-09-30T22:37:49.786+0300] {base.py:73} INFO - Using connection ID 'pg_connection' for task execution.
+[2023-09-30T22:37:49.800+0300] {test_dag_for_model_train.py:60} INFO - Taking data from Postgres.
+[2023-09-30T22:37:49.807+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_for_model_train.py:61 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2023-09-30T22:37:49.877+0300] {test_dag_for_model_train.py:63} INFO - S3 connection initializing.
+[2023-09-30T22:37:49.890+0300] {base.py:73} INFO - Using connection ID 's3_connector' for task execution.
+[2023-09-30T22:37:49.891+0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='s3_connector', conn_type='aws') credentials retrieved from login and password.
+[2023-09-30T22:37:49.898+0300] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/dsbulgako1/my_repos/mlops_project/dags/test_dag_for_model_train.py", line 65, in get_data_from_postgres
+    session = s3_hook.get_session('ru_central1')
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 583, in get_session
+    return SessionFactory(
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 178, in create_session
+    return self.basic_session
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 113, in basic_session
+    return self._create_basic_session(session_kwargs=self.conn.session_kwargs)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 196, in _create_basic_session
+    return boto3.session.Session(**session_kwargs)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/boto3/session.py", line 90, in __init__
+    self._setup_loader()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/boto3/session.py", line 131, in _setup_loader
+    self._loader = self._session.get_component('data_loader')
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/session.py", line 802, in get_component
+    return self._components.get_component(name)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/session.py", line 1140, in get_component
+    self._components[name] = factory()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/session.py", line 199, in <lambda>
+    lambda: create_loader(self.get_config_variable('data_path')),
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/session.py", line 323, in get_config_variable
+    return self.get_component('config_store').get_config_variable(
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/configprovider.py", line 457, in get_config_variable
+    return provider.provide()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/configprovider.py", line 663, in provide
+    value = provider.provide()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/configprovider.py", line 753, in provide
+    scoped_config = self._session.get_scoped_config()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/session.py", line 422, in get_scoped_config
+    raise ProfileNotFound(profile=profile_name)
+botocore.exceptions.ProfileNotFound: The config profile (dsbulgako1) could not be found
+[2023-09-30T22:37:49.919+0300] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=dummy_train_dag, task_id=data_load, execution_date=20230929T010000, start_date=20230930T193749, end_date=20230930T193749
+[2023-09-30T22:37:49.930+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2023-09-30T22:37:49.930+0300] {email.py:270} INFO - Email alerting: attempt 1
+[2023-09-30T22:37:50.376+0300] {email.py:282} INFO - Sent an alert email to ['dmitrii.bulghakov@gmail.com']
+[2023-09-30T22:37:51.122+0300] {standard_task_runner.py:104} ERROR - Failed to execute job 30 for task data_load (The config profile (dsbulgako1) could not be found; 18893)
+[2023-09-30T22:37:51.131+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-09-30T22:37:51.148+0300] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

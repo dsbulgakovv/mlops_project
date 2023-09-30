@@ -1,0 +1,42 @@
+[2023-10-01T02:27:50.981+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [queued]>
+[2023-10-01T02:27:50.985+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [queued]>
+[2023-10-01T02:27:50.985+0300] {taskinstance.py:1359} INFO - Starting attempt 11 of 11
+[2023-10-01T02:27:51.048+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): data_load> on 2023-09-29 01:00:00+00:00
+[2023-10-01T02:27:51.052+0300] {standard_task_runner.py:57} INFO - Started process 23467 to run task
+[2023-10-01T02:27:51.054+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dummy_train_dag', 'data_load', 'scheduled__2023-09-29T01:00:00+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/test_dag_for_model_train.py', '--cfg-path', '/tmp/tmpdx0rhek9']
+[2023-10-01T02:27:51.056+0300] {standard_task_runner.py:85} INFO - Job 41: Subtask data_load
+[2023-10-01T02:27:51.096+0300] {task_command.py:415} INFO - Running <TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-01T02:27:51.153+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@gmail.com' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='dummy_train_dag' AIRFLOW_CTX_TASK_ID='data_load' AIRFLOW_CTX_EXECUTION_DATE='2023-09-29T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='11' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-29T01:00:00+00:00'
+[2023-10-01T02:27:51.154+0300] {test_dag_for_model_train.py:55} INFO - Postgres connection initializing.
+[2023-10-01T02:27:51.164+0300] {base.py:73} INFO - Using connection ID 'pg_connection' for task execution.
+[2023-10-01T02:27:51.171+0300] {test_dag_for_model_train.py:60} INFO - Taking data from Postgres.
+[2023-10-01T02:27:51.178+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_for_model_train.py:61 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2023-10-01T02:27:51.240+0300] {test_dag_for_model_train.py:63} INFO - S3 connection initializing.
+[2023-10-01T02:27:51.252+0300] {base.py:73} INFO - Using connection ID 's3_connector' for task execution.
+[2023-10-01T02:27:51.253+0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='s3_connector', conn_type='aws') credentials retrieved from login and password.
+[2023-10-01T02:27:51.295+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-01T02:27:51.301+0300] {test_dag_for_model_train.py:68} INFO - S3 data uploading.
+[2023-10-01T02:27:51.528+0300] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/dsbulgako1/my_repos/mlops_project/dags/test_dag_for_model_train.py", line 70, in get_data_from_postgres
+    resource.Object(BUCKET, DATA_PATH).put(Body=pickle_byte_obj)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/boto3/resources/factory.py", line 580, in do_action
+    response = action(self, *args, **kwargs)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/boto3/resources/action.py", line 88, in __call__
+    response = getattr(parent.meta.client, operation_name)(*args, **params)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/client.py", line 535, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/botocore/client.py", line 980, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (InvalidBucketName) when calling the PutObject operation: The specified bucket is not valid.
+[2023-10-01T02:27:51.542+0300] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=dummy_train_dag, task_id=data_load, execution_date=20230929T010000, start_date=20230930T232750, end_date=20230930T232751
+[2023-10-01T02:27:51.548+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2023-10-01T02:27:51.548+0300] {email.py:270} INFO - Email alerting: attempt 1
+[2023-10-01T02:27:51.977+0300] {email.py:282} INFO - Sent an alert email to ['dmitrii.bulghakov@gmail.com']
+[2023-10-01T02:27:52.806+0300] {standard_task_runner.py:104} ERROR - Failed to execute job 41 for task data_load (An error occurred (InvalidBucketName) when calling the PutObject operation: The specified bucket is not valid.; 23467)
+[2023-10-01T02:27:52.847+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-01T02:27:52.877+0300] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

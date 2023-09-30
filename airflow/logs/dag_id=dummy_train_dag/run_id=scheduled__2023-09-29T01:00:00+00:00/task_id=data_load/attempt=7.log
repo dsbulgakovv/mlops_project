@@ -1,0 +1,34 @@
+[2023-10-01T02:17:21.290+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [queued]>
+[2023-10-01T02:17:21.296+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [queued]>
+[2023-10-01T02:17:21.296+0300] {taskinstance.py:1359} INFO - Starting attempt 7 of 7
+[2023-10-01T02:17:21.376+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): data_load> on 2023-09-29 01:00:00+00:00
+[2023-10-01T02:17:21.380+0300] {standard_task_runner.py:57} INFO - Started process 22347 to run task
+[2023-10-01T02:17:21.384+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dummy_train_dag', 'data_load', 'scheduled__2023-09-29T01:00:00+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/test_dag_for_model_train.py', '--cfg-path', '/tmp/tmpms2wetz6']
+[2023-10-01T02:17:21.386+0300] {standard_task_runner.py:85} INFO - Job 37: Subtask data_load
+[2023-10-01T02:17:21.464+0300] {task_command.py:415} INFO - Running <TaskInstance: dummy_train_dag.data_load scheduled__2023-09-29T01:00:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-01T02:17:21.558+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@gmail.com' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='dummy_train_dag' AIRFLOW_CTX_TASK_ID='data_load' AIRFLOW_CTX_EXECUTION_DATE='2023-09-29T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-29T01:00:00+00:00'
+[2023-10-01T02:17:21.559+0300] {test_dag_for_model_train.py:55} INFO - Postgres connection initializing.
+[2023-10-01T02:17:21.572+0300] {base.py:73} INFO - Using connection ID 'pg_connection' for task execution.
+[2023-10-01T02:17:21.579+0300] {test_dag_for_model_train.py:60} INFO - Taking data from Postgres.
+[2023-10-01T02:17:21.587+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_for_model_train.py:61 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2023-10-01T02:17:21.665+0300] {test_dag_for_model_train.py:63} INFO - S3 connection initializing.
+[2023-10-01T02:17:21.677+0300] {base.py:73} INFO - Using connection ID 's3_connector' for task execution.
+[2023-10-01T02:17:21.678+0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='s3_connector', conn_type='aws') credentials retrieved from login and password.
+[2023-10-01T02:17:21.745+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-01T02:17:21.751+0300] {test_dag_for_model_train.py:68} INFO - S3 data uploading.
+[2023-10-01T02:17:21.751+0300] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/dsbulgako1/my_repos/mlops_project/dags/test_dag_for_model_train.py", line 69, in get_data_from_postgres
+    pickle_byte_obj = pickle.dump(data)
+TypeError: dump() missing required argument 'file' (pos 2)
+[2023-10-01T02:17:21.761+0300] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=dummy_train_dag, task_id=data_load, execution_date=20230929T010000, start_date=20230930T231721, end_date=20230930T231721
+[2023-10-01T02:17:21.769+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2023-10-01T02:17:21.770+0300] {email.py:270} INFO - Email alerting: attempt 1
+[2023-10-01T02:17:22.162+0300] {email.py:282} INFO - Sent an alert email to ['dmitrii.bulghakov@gmail.com']
+[2023-10-01T02:17:22.966+0300] {standard_task_runner.py:104} ERROR - Failed to execute job 37 for task data_load (dump() missing required argument 'file' (pos 2); 22347)
+[2023-10-01T02:17:23.008+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-01T02:17:23.027+0300] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

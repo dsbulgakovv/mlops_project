@@ -1,0 +1,29 @@
+[2023-10-01T02:34:13.525+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dummy_train_dag.model_training scheduled__2023-09-29T01:00:00+00:00 [queued]>
+[2023-10-01T02:34:13.531+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dummy_train_dag.model_training scheduled__2023-09-29T01:00:00+00:00 [queued]>
+[2023-10-01T02:34:13.531+0300] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2023-10-01T02:34:13.606+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): model_training> on 2023-09-29 01:00:00+00:00
+[2023-10-01T02:34:13.613+0300] {standard_task_runner.py:57} INFO - Started process 24163 to run task
+[2023-10-01T02:34:13.616+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dummy_train_dag', 'model_training', 'scheduled__2023-09-29T01:00:00+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/test_dag_for_model_train.py', '--cfg-path', '/tmp/tmpmz11x75b']
+[2023-10-01T02:34:13.618+0300] {standard_task_runner.py:85} INFO - Job 49: Subtask model_training
+[2023-10-01T02:34:13.672+0300] {task_command.py:415} INFO - Running <TaskInstance: dummy_train_dag.model_training scheduled__2023-09-29T01:00:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-01T02:34:13.760+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@gmail.com' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='dummy_train_dag' AIRFLOW_CTX_TASK_ID='model_training' AIRFLOW_CTX_EXECUTION_DATE='2023-09-29T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-29T01:00:00+00:00'
+[2023-10-01T02:34:13.762+0300] {s3.py:1359} INFO - This function shadows the 'download_file' method of S3 API, but it is not the same. If you want to use the original method from S3 API, please call 'S3Hook.get_conn().download_file()'
+[2023-10-01T02:34:13.762+0300] {s3.py:1365} INFO - Downloading source S3 file from Bucket mlops-project with path mlops_project/test_project/dataset/X_train.pkl
+[2023-10-01T02:34:13.776+0300] {base.py:73} INFO - Using connection ID 's3_connector' for task execution.
+[2023-10-01T02:34:13.776+0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='s3_connector', conn_type='aws') credentials retrieved from login and password.
+[2023-10-01T02:34:13.812+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-01T02:34:14.488+0300] {s3.py:1359} INFO - This function shadows the 'download_file' method of S3 API, but it is not the same. If you want to use the original method from S3 API, please call 'S3Hook.get_conn().download_file()'
+[2023-10-01T02:34:14.488+0300] {s3.py:1365} INFO - Downloading source S3 file from Bucket mlops-project with path mlops_project/test_project/dataset/X_test.pkl
+[2023-10-01T02:34:14.522+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-01T02:34:14.743+0300] {s3.py:1359} INFO - This function shadows the 'download_file' method of S3 API, but it is not the same. If you want to use the original method from S3 API, please call 'S3Hook.get_conn().download_file()'
+[2023-10-01T02:34:14.744+0300] {s3.py:1365} INFO - Downloading source S3 file from Bucket mlops-project with path mlops_project/test_project/dataset/y_train.pkl
+[2023-10-01T02:34:14.778+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-01T02:34:14.996+0300] {s3.py:1359} INFO - This function shadows the 'download_file' method of S3 API, but it is not the same. If you want to use the original method from S3 API, please call 'S3Hook.get_conn().download_file()'
+[2023-10-01T02:34:14.997+0300] {s3.py:1365} INFO - Downloading source S3 file from Bucket mlops-project with path mlops_project/test_project/dataset/y_test.pkl
+[2023-10-01T02:34:15.171+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-01T02:34:23.930+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-01T02:34:24.076+0300] {test_dag_for_model_train.py:124} INFO - Model train finished!
+[2023-10-01T02:34:24.081+0300] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-01T02:34:24.094+0300] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=dummy_train_dag, task_id=model_training, execution_date=20230929T010000, start_date=20230930T233413, end_date=20230930T233424
+[2023-10-01T02:34:24.122+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-01T02:34:24.138+0300] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
