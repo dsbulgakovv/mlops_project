@@ -2120,3 +2120,59 @@
 [2023-10-01T02:38:53.274+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:38:53.273+0300] {dag.py:2915} INFO - Sync 1 DAGs
 [2023-10-01T02:38:53.286+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:38:53.286+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_mlops to 2023-09-29T01:00:00+00:00, run_after=2023-09-30T01:00:00+00:00
 [2023-10-01T02:38:53.295+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py took 0.062 seconds
+[2023-10-01T02:39:23.445+0300] {processor.py:157} INFO - Started process (PID=24541) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:39:23.447+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py for tasks to queue
+[2023-10-01T02:39:23.447+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:39:23.447+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:39:23.458+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_mlops']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:39:23.487+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:39:23.487+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:39:23.501+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:39:23.501+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_mlops to 2023-09-29T01:00:00+00:00, run_after=2023-09-30T01:00:00+00:00
+[2023-10-01T02:39:23.510+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py took 0.071 seconds
+[2023-10-01T02:39:53.671+0300] {processor.py:157} INFO - Started process (PID=24564) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:39:53.672+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py for tasks to queue
+[2023-10-01T02:39:53.673+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:39:53.672+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:39:53.684+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_mlops']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:39:53.710+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:39:53.710+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:39:53.723+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:39:53.723+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_mlops to 2023-09-29T01:00:00+00:00, run_after=2023-09-30T01:00:00+00:00
+[2023-10-01T02:39:53.733+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py took 0.067 seconds
+[2023-10-01T02:40:23.888+0300] {processor.py:157} INFO - Started process (PID=24696) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:40:23.890+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py for tasks to queue
+[2023-10-01T02:40:23.891+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:40:23.891+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:40:23.907+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_mlops']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:40:23.935+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:40:23.934+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:40:23.949+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:40:23.948+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_mlops to 2023-09-29T01:00:00+00:00, run_after=2023-09-30T01:00:00+00:00
+[2023-10-01T02:40:23.959+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py took 0.076 seconds
+[2023-10-01T02:40:54.136+0300] {processor.py:157} INFO - Started process (PID=24758) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:40:54.138+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py for tasks to queue
+[2023-10-01T02:40:54.139+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:40:54.138+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:40:54.152+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_mlops']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:40:54.179+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:40:54.179+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:40:54.191+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:40:54.191+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_mlops to 2023-09-29T01:00:00+00:00, run_after=2023-09-30T01:00:00+00:00
+[2023-10-01T02:40:54.200+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py took 0.069 seconds
+[2023-10-01T02:41:24.338+0300] {processor.py:157} INFO - Started process (PID=24809) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:41:24.339+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py for tasks to queue
+[2023-10-01T02:41:24.340+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:41:24.340+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:41:24.352+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_mlops']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:41:24.379+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:41:24.379+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:41:24.392+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:41:24.392+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_mlops to 2023-09-29T01:00:00+00:00, run_after=2023-09-30T01:00:00+00:00
+[2023-10-01T02:41:24.402+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py took 0.069 seconds
+[2023-10-01T02:41:54.539+0300] {processor.py:157} INFO - Started process (PID=24851) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:41:54.542+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py for tasks to queue
+[2023-10-01T02:41:54.542+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:41:54.542+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:41:54.554+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_mlops']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:41:54.577+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:41:54.577+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:41:54.591+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:41:54.591+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_mlops to 2023-09-29T01:00:00+00:00, run_after=2023-09-30T01:00:00+00:00
+[2023-10-01T02:41:54.600+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py took 0.065 seconds
+[2023-10-01T02:42:24.723+0300] {processor.py:157} INFO - Started process (PID=24874) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:42:24.724+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py for tasks to queue
+[2023-10-01T02:42:24.725+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:42:24.724+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:42:24.732+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_mlops']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:42:24.751+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:42:24.751+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:42:24.763+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:42:24.762+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_mlops to 2023-09-29T01:00:00+00:00, run_after=2023-09-30T01:00:00+00:00
+[2023-10-01T02:42:24.772+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py took 0.051 seconds
+[2023-10-01T02:42:54.919+0300] {processor.py:157} INFO - Started process (PID=24932) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:42:54.922+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py for tasks to queue
+[2023-10-01T02:42:54.924+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:42:54.923+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:42:54.943+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_mlops']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py
+[2023-10-01T02:42:54.973+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:42:54.973+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:42:54.986+0300] {logging_mixin.py:151} INFO - [2023-10-01T02:42:54.986+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_mlops to 2023-09-29T01:00:00+00:00, run_after=2023-09-30T01:00:00+00:00
+[2023-10-01T02:42:54.995+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_mlops.py took 0.085 seconds
