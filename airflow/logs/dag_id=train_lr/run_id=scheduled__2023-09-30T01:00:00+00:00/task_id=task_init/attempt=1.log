@@ -1,0 +1,14 @@
+[2023-10-02T02:39:39.938+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: train_lr.task_init scheduled__2023-09-30T01:00:00+00:00 [queued]>
+[2023-10-02T02:39:39.944+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: train_lr.task_init scheduled__2023-09-30T01:00:00+00:00 [queued]>
+[2023-10-02T02:39:39.944+0300] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-02T02:39:40.043+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): task_init> on 2023-09-30 01:00:00+00:00
+[2023-10-02T02:39:40.050+0300] {standard_task_runner.py:57} INFO - Started process 5115 to run task
+[2023-10-02T02:39:40.054+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'train_lr', 'task_init', 'scheduled__2023-09-30T01:00:00+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/test_dag_several_models.py', '--cfg-path', '/tmp/tmp9jzmnz0e']
+[2023-10-02T02:39:40.057+0300] {standard_task_runner.py:85} INFO - Job 53: Subtask task_init
+[2023-10-02T02:39:40.129+0300] {task_command.py:415} INFO - Running <TaskInstance: train_lr.task_init scheduled__2023-09-30T01:00:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-02T02:39:40.250+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@gmail.com' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='train_lr' AIRFLOW_CTX_TASK_ID='task_init' AIRFLOW_CTX_EXECUTION_DATE='2023-09-30T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-30T01:00:00+00:00'
+[2023-10-02T02:39:40.251+0300] {test_dag_several_models.py:53} INFO - Train pipeline started.
+[2023-10-02T02:39:40.251+0300] {python.py:194} INFO - Done. Returned value was: {'model': 'lr', 'start_timestamp': '20231002 02:39'}
+[2023-10-02T02:39:40.277+0300] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=train_lr, task_id=task_init, execution_date=20230930T010000, start_date=20231001T233939, end_date=20231001T233940
+[2023-10-02T02:39:40.307+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-02T02:39:40.330+0300] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

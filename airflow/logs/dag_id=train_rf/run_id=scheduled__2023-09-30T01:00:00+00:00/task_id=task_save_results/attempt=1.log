@@ -1,0 +1,17 @@
+[2023-10-02T02:40:04.814+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: train_rf.task_save_results scheduled__2023-09-30T01:00:00+00:00 [queued]>
+[2023-10-02T02:40:04.819+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: train_rf.task_save_results scheduled__2023-09-30T01:00:00+00:00 [queued]>
+[2023-10-02T02:40:04.820+0300] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-02T02:40:04.894+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): task_save_results> on 2023-09-30 01:00:00+00:00
+[2023-10-02T02:40:04.898+0300] {standard_task_runner.py:57} INFO - Started process 5588 to run task
+[2023-10-02T02:40:04.901+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'train_rf', 'task_save_results', 'scheduled__2023-09-30T01:00:00+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/test_dag_several_models.py', '--cfg-path', '/tmp/tmploxszibd']
+[2023-10-02T02:40:04.904+0300] {standard_task_runner.py:85} INFO - Job 67: Subtask task_save_results
+[2023-10-02T02:40:04.957+0300] {task_command.py:415} INFO - Running <TaskInstance: train_rf.task_save_results scheduled__2023-09-30T01:00:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-02T02:40:05.028+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@gmail.com' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='train_rf' AIRFLOW_CTX_TASK_ID='task_save_results' AIRFLOW_CTX_EXECUTION_DATE='2023-09-30T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-30T01:00:00+00:00'
+[2023-10-02T02:40:05.042+0300] {test_dag_several_models.py:151} INFO - Success.
+[2023-10-02T02:40:05.054+0300] {base.py:73} INFO - Using connection ID 's3_connector' for task execution.
+[2023-10-02T02:40:05.055+0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='s3_connector', conn_type='aws') credentials retrieved from login and password.
+[2023-10-02T02:40:05.092+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-02T02:40:05.216+0300] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-02T02:40:05.227+0300] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=train_rf, task_id=task_save_results, execution_date=20230930T010000, start_date=20231001T234004, end_date=20231001T234005
+[2023-10-02T02:40:05.273+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-02T02:40:05.290+0300] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,5 +1,5 @@
 from datetime import timedelta
-from dags_tasks_scripts import init
+from typing import NoReturn
 
 from airflow.models import DAG
 from airflow.utils.dates import days_ago
@@ -24,9 +24,13 @@ dag = DAG(
 )
 
 
+def init() -> NoReturn:
+    print('Hello, world!')
+
+
 task_init = PythonOperator(
     task_id='init',
-    python_callable=init.main,
+    python_callable=init,
     dag=dag)
 
 
