@@ -1,0 +1,25 @@
+[2023-10-07T14:59:59.229+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_dag_all_models_in_one.task_save_results scheduled__2023-10-06T01:00:00+00:00 [queued]>
+[2023-10-07T14:59:59.233+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_dag_all_models_in_one.task_save_results scheduled__2023-10-06T01:00:00+00:00 [queued]>
+[2023-10-07T14:59:59.233+0300] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-10-07T14:59:59.293+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): task_save_results> on 2023-10-06 01:00:00+00:00
+[2023-10-07T14:59:59.296+0300] {standard_task_runner.py:57} INFO - Started process 14647 to run task
+[2023-10-07T14:59:59.298+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'test_dag_all_models_in_one', 'task_save_results', 'scheduled__2023-10-06T01:00:00+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/test_dag_several_parallel_model_train.py', '--cfg-path', '/tmp/tmp9u7dcw6g']
+[2023-10-07T14:59:59.300+0300] {standard_task_runner.py:85} INFO - Job 82: Subtask task_save_results
+[2023-10-07T14:59:59.338+0300] {task_command.py:415} INFO - Running <TaskInstance: test_dag_all_models_in_one.task_save_results scheduled__2023-10-06T01:00:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-07T14:59:59.394+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@gmail.com' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='test_dag_all_models_in_one' AIRFLOW_CTX_TASK_ID='task_save_results' AIRFLOW_CTX_EXECUTION_DATE='2023-10-06T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-06T01:00:00+00:00'
+[2023-10-07T14:59:59.422+0300] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py", line 228, in save_results
+    metrics = metrics_0 + metrics_1 + metrics_2
+TypeError: unsupported operand type(s) for +: 'dict' and 'dict'
+[2023-10-07T14:59:59.432+0300] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=test_dag_all_models_in_one, task_id=task_save_results, execution_date=20231006T010000, start_date=20231007T115959, end_date=20231007T115959
+[2023-10-07T14:59:59.440+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2023-10-07T14:59:59.440+0300] {email.py:270} INFO - Email alerting: attempt 1
+[2023-10-07T14:59:59.834+0300] {email.py:282} INFO - Sent an alert email to ['dmitrii.bulghakov@gmail.com']
+[2023-10-07T15:00:00.561+0300] {standard_task_runner.py:104} ERROR - Failed to execute job 82 for task task_save_results (unsupported operand type(s) for +: 'dict' and 'dict'; 14647)
+[2023-10-07T15:00:00.601+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-07T15:00:00.622+0300] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

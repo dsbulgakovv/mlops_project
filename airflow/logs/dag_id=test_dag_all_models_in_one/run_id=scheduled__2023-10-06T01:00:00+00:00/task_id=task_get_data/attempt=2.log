@@ -1,0 +1,23 @@
+[2023-10-07T14:59:42.387+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_dag_all_models_in_one.task_get_data scheduled__2023-10-06T01:00:00+00:00 [queued]>
+[2023-10-07T14:59:42.391+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_dag_all_models_in_one.task_get_data scheduled__2023-10-06T01:00:00+00:00 [queued]>
+[2023-10-07T14:59:42.391+0300] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2023-10-07T14:59:42.460+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): task_get_data> on 2023-10-06 01:00:00+00:00
+[2023-10-07T14:59:42.464+0300] {standard_task_runner.py:57} INFO - Started process 14417 to run task
+[2023-10-07T14:59:42.467+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'test_dag_all_models_in_one', 'task_get_data', 'scheduled__2023-10-06T01:00:00+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/test_dag_several_parallel_model_train.py', '--cfg-path', '/tmp/tmp_inyr557']
+[2023-10-07T14:59:42.469+0300] {standard_task_runner.py:85} INFO - Job 77: Subtask task_get_data
+[2023-10-07T14:59:42.520+0300] {task_command.py:415} INFO - Running <TaskInstance: test_dag_all_models_in_one.task_get_data scheduled__2023-10-06T01:00:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-07T14:59:42.587+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@gmail.com' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='test_dag_all_models_in_one' AIRFLOW_CTX_TASK_ID='task_get_data' AIRFLOW_CTX_EXECUTION_DATE='2023-10-06T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-06T01:00:00+00:00'
+[2023-10-07T14:59:42.599+0300] {test_dag_several_parallel_model_train.py:56} INFO - Postgres connection initializing.
+[2023-10-07T14:59:42.609+0300] {base.py:73} INFO - Using connection ID 'pg_connection' for task execution.
+[2023-10-07T14:59:42.617+0300] {test_dag_several_parallel_model_train.py:61} INFO - Taking data from Postgres.
+[2023-10-07T14:59:42.623+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py:62 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2023-10-07T14:59:42.683+0300] {test_dag_several_parallel_model_train.py:64} INFO - S3 connection initializing.
+[2023-10-07T14:59:42.695+0300] {base.py:73} INFO - Using connection ID 's3_connector' for task execution.
+[2023-10-07T14:59:42.696+0300] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='s3_connector', conn_type='aws') credentials retrieved from login and password.
+[2023-10-07T14:59:42.749+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-07T14:59:42.764+0300] {test_dag_several_parallel_model_train.py:69} INFO - S3 data uploading.
+[2023-10-07T14:59:43.319+0300] {test_dag_several_parallel_model_train.py:72} INFO - Data uploading finished.
+[2023-10-07T14:59:43.320+0300] {python.py:194} INFO - Done. Returned value was: {'model_rf': 'rf', 'model_lr': 'lr', 'model_hgb': 'hgb', 'start_timestamp': '20231007 14:59', 'data_uploaded_timestamp': '20231007 14:59'}
+[2023-10-07T14:59:43.347+0300] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=test_dag_all_models_in_one, task_id=task_get_data, execution_date=20231006T010000, start_date=20231007T115942, end_date=20231007T115943
+[2023-10-07T14:59:43.368+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-07T14:59:43.389+0300] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
