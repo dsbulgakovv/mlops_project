@@ -1,0 +1,60 @@
+[2023-10-17T00:14:24.925+0300] {processor.py:157} INFO - Started process (PID=25763) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T00:14:24.926+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py for tasks to queue
+[2023-10-17T00:14:24.926+0300] {logging_mixin.py:151} INFO - [2023-10-17T00:14:24.926+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T00:14:26.031+0300] {processor.py:839} INFO - DAG(s) dict_keys(['train_lr', 'train_hgb', 'train_rf']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T00:14:26.137+0300] {logging_mixin.py:151} INFO - [2023-10-17T00:14:26.136+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:train_lr' as access control is unset.
+[2023-10-17T00:14:26.137+0300] {logging_mixin.py:151} WARNING - Not syncing DAG-level permissions for DAG 'DAG:train_lr' as access control is unset.
+[2023-10-17T00:14:26.144+0300] {logging_mixin.py:151} INFO - [2023-10-17T00:14:26.143+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:train_hgb' as access control is unset.
+[2023-10-17T00:14:26.144+0300] {logging_mixin.py:151} WARNING - Not syncing DAG-level permissions for DAG 'DAG:train_hgb' as access control is unset.
+[2023-10-17T00:14:26.150+0300] {logging_mixin.py:151} INFO - [2023-10-17T00:14:26.149+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:train_rf' as access control is unset.
+[2023-10-17T00:14:26.150+0300] {logging_mixin.py:151} WARNING - Not syncing DAG-level permissions for DAG 'DAG:train_rf' as access control is unset.
+[2023-10-17T00:14:26.150+0300] {logging_mixin.py:151} INFO - [2023-10-17T00:14:26.150+0300] {dag.py:2915} INFO - Sync 3 DAGs
+[2023-10-17T00:14:26.150+0300] {logging_mixin.py:151} WARNING - Sync 3 DAGs
+[2023-10-17T00:14:26.161+0300] {logging_mixin.py:151} INFO - [2023-10-17T00:14:26.161+0300] {dag.py:3696} INFO - Setting next_dagrun for train_hgb to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T00:14:26.161+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_hgb to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T00:14:26.164+0300] {logging_mixin.py:151} INFO - [2023-10-17T00:14:26.164+0300] {dag.py:3696} INFO - Setting next_dagrun for train_lr to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T00:14:26.164+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_lr to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T00:14:26.165+0300] {logging_mixin.py:151} INFO - [2023-10-17T00:14:26.165+0300] {dag.py:3696} INFO - Setting next_dagrun for train_rf to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T00:14:26.165+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_rf to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T00:14:26.180+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py took 1.258 seconds
+[2023-10-17T00:14:56.474+0300] {processor.py:157} INFO - Started process (PID=25864) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T00:14:56.475+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py for tasks to queue
+[2023-10-17T00:14:56.476+0300] {logging_mixin.py:151} INFO - [2023-10-17T00:14:56.475+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T01:18:42.437+0300] {processor.py:839} INFO - DAG(s) dict_keys(['train_lr', 'train_hgb', 'train_rf']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T01:18:42.457+0300] {logging_mixin.py:151} INFO - [2023-10-17T01:18:42.457+0300] {dag.py:2915} INFO - Sync 3 DAGs
+[2023-10-17T01:18:42.458+0300] {logging_mixin.py:151} WARNING - Sync 3 DAGs
+[2023-10-17T01:18:42.468+0300] {logging_mixin.py:151} INFO - [2023-10-17T01:18:42.468+0300] {dag.py:3696} INFO - Setting next_dagrun for train_hgb to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:18:42.468+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_hgb to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:18:42.470+0300] {logging_mixin.py:151} INFO - [2023-10-17T01:18:42.470+0300] {dag.py:3696} INFO - Setting next_dagrun for train_lr to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:18:42.471+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_lr to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:18:42.472+0300] {logging_mixin.py:151} INFO - [2023-10-17T01:18:42.472+0300] {dag.py:3696} INFO - Setting next_dagrun for train_rf to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:18:42.472+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_rf to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:19:12.555+0300] {processor.py:157} INFO - Started process (PID=25933) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T01:19:12.556+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py for tasks to queue
+[2023-10-17T01:19:12.557+0300] {logging_mixin.py:151} INFO - [2023-10-17T01:19:12.557+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T01:19:13.021+0300] {processor.py:839} INFO - DAG(s) dict_keys(['train_hgb', 'train_rf', 'train_lr']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T01:19:13.041+0300] {logging_mixin.py:151} INFO - [2023-10-17T01:19:13.040+0300] {dag.py:2915} INFO - Sync 3 DAGs
+[2023-10-17T01:19:13.041+0300] {logging_mixin.py:151} WARNING - Sync 3 DAGs
+[2023-10-17T01:19:13.050+0300] {logging_mixin.py:151} INFO - [2023-10-17T01:19:13.050+0300] {dag.py:3696} INFO - Setting next_dagrun for train_hgb to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:19:13.050+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_hgb to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:19:13.053+0300] {logging_mixin.py:151} INFO - [2023-10-17T01:19:13.053+0300] {dag.py:3696} INFO - Setting next_dagrun for train_lr to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:19:13.053+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_lr to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:19:13.054+0300] {logging_mixin.py:151} INFO - [2023-10-17T01:19:13.054+0300] {dag.py:3696} INFO - Setting next_dagrun for train_rf to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:19:13.054+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_rf to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T01:19:13.061+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py took 0.510 seconds
+[2023-10-17T02:41:18.733+0300] {processor.py:157} INFO - Started process (PID=25992) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T02:41:18.734+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py for tasks to queue
+[2023-10-17T02:41:18.734+0300] {logging_mixin.py:151} INFO - [2023-10-17T02:41:18.734+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T02:41:19.755+0300] {processor.py:839} INFO - DAG(s) dict_keys(['train_hgb', 'train_lr', 'train_rf']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T02:41:19.781+0300] {logging_mixin.py:151} INFO - [2023-10-17T02:41:19.781+0300] {dag.py:2915} INFO - Sync 3 DAGs
+[2023-10-17T02:41:19.781+0300] {logging_mixin.py:151} WARNING - Sync 3 DAGs
+[2023-10-17T02:41:19.802+0300] {logging_mixin.py:151} INFO - [2023-10-17T02:41:19.802+0300] {dag.py:3696} INFO - Setting next_dagrun for train_hgb to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T02:41:19.802+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_hgb to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T02:41:19.807+0300] {logging_mixin.py:151} INFO - [2023-10-17T02:41:19.807+0300] {dag.py:3696} INFO - Setting next_dagrun for train_lr to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T02:41:19.807+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_lr to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T02:41:19.809+0300] {logging_mixin.py:151} INFO - [2023-10-17T02:41:19.809+0300] {dag.py:3696} INFO - Setting next_dagrun for train_rf to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T02:41:19.809+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for train_rf to 2023-10-15T01:00:00+00:00, run_after=2023-10-16T01:00:00+00:00
+[2023-10-17T02:41:19.821+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py took 1.090 seconds
+[2023-10-17T02:41:50.351+0300] {processor.py:157} INFO - Started process (PID=26080) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py
+[2023-10-17T02:41:50.353+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py for tasks to queue
+[2023-10-17T02:41:50.354+0300] {logging_mixin.py:151} INFO - [2023-10-17T02:41:50.353+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_models.py

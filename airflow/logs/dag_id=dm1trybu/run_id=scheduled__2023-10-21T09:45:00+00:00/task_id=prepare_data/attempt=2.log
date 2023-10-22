@@ -1,0 +1,31 @@
+[2023-10-22T20:58:03.058+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dm1trybu.prepare_data scheduled__2023-10-21T09:45:00+00:00 [queued]>
+[2023-10-22T20:58:03.062+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dm1trybu.prepare_data scheduled__2023-10-21T09:45:00+00:00 [queued]>
+[2023-10-22T20:58:03.062+0300] {taskinstance.py:1359} INFO - Starting attempt 2 of 5
+[2023-10-22T20:58:03.069+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): prepare_data> on 2023-10-21 09:45:00+00:00
+[2023-10-22T20:58:03.073+0300] {standard_task_runner.py:57} INFO - Started process 215015 to run task
+[2023-10-22T20:58:03.076+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dm1trybu', 'prepare_data', 'scheduled__2023-10-21T09:45:00+00:00', '--job-id', '119', '--raw', '--subdir', 'DAGS_FOLDER/final_dag_3_models.py', '--cfg-path', '/tmp/tmp_6am029d']
+[2023-10-22T20:58:03.078+0300] {standard_task_runner.py:85} INFO - Job 119: Subtask prepare_data
+[2023-10-22T20:58:03.123+0300] {task_command.py:415} INFO - Running <TaskInstance: dm1trybu.prepare_data scheduled__2023-10-21T09:45:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-22T20:58:03.188+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@bk.ru' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='dm1trybu' AIRFLOW_CTX_TASK_ID='prepare_data' AIRFLOW_CTX_EXECUTION_DATE='2023-10-21T09:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-21T09:45:00+00:00'
+[2023-10-22T20:58:03.200+0300] {final_dag_3_models.py:147} INFO - Connecting to S3...
+[2023-10-22T20:58:03.210+0300] {base_aws.py:553} WARNING - Unable to find AWS Connection ID 's3_connection', switching to empty.
+[2023-10-22T20:58:03.210+0300] {base_aws.py:161} INFO - No connection ID provided. Fallback on boto3 credential strategy (region_name='ru-central1'). See: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
+[2023-10-22T20:58:03.226+0300] {credentials.py:1254} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2023-10-22T20:58:03.400+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-22T20:58:03.403+0300] {final_dag_3_models.py:153} INFO - Downloading data from S3.
+[2023-10-22T20:58:03.404+0300] {s3.py:1359} INFO - This function shadows the 'download_file' method of S3 API, but it is not the same. If you want to use the original method from S3 API, please call 'S3Hook.get_conn().download_file()'
+[2023-10-22T20:58:03.404+0300] {s3.py:1365} INFO - Downloading source S3 file from Bucket mlops-project with path dm1trybu/datasets/california_housing.pkl
+[2023-10-22T20:58:03.404+0300] {base_aws.py:161} INFO - No connection ID provided. Fallback on boto3 credential strategy (region_name=None). See: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
+[2023-10-22T20:58:03.415+0300] {credentials.py:1254} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2023-10-22T20:58:03.452+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-22T20:58:09.427+0300] {final_dag_3_models.py:161} INFO - Data preparation started...
+[2023-10-22T20:58:09.440+0300] {final_dag_3_models.py:172} INFO - Saving prepared data to S3...
+[2023-10-22T20:58:10.045+0300] {final_dag_3_models.py:178} INFO - Saved: X_train.
+[2023-10-22T20:58:10.155+0300] {final_dag_3_models.py:178} INFO - Saved: X_test.
+[2023-10-22T20:58:10.283+0300] {final_dag_3_models.py:178} INFO - Saved: y_train.
+[2023-10-22T20:58:10.364+0300] {final_dag_3_models.py:178} INFO - Saved: y_test.
+[2023-10-22T20:58:10.364+0300] {final_dag_3_models.py:180} INFO - Data preparation finished.
+[2023-10-22T20:58:10.366+0300] {python.py:194} INFO - Done. Returned value was: {'start_tiemstamp': '20231022 20:45', 'parent_run_name': 'parent_standard_3_models', 'experiment_name': 'dm1trybu', 'experiment_id': '8', 'parent_run_id': '6a182f29f6e54f1c9c594f6c2158dd90', 'data_download_start': '20231022 20:49', 'data_download_end': '20231022 20:49', 'data_preparation_start': '20231022 20:58', 'data_preparation_end': '20231022 20:58'}
+[2023-10-22T20:58:10.401+0300] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=dm1trybu, task_id=prepare_data, execution_date=20231021T094500, start_date=20231022T175803, end_date=20231022T175810
+[2023-10-22T20:58:10.436+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-22T20:58:10.463+0300] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

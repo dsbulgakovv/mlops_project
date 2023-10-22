@@ -1,0 +1,92 @@
+[2023-10-22T22:01:22.946+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dm1trybu.train_hgb scheduled__2023-10-21T09:45:00+00:00 [queued]>
+[2023-10-22T22:01:22.950+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dm1trybu.train_hgb scheduled__2023-10-21T09:45:00+00:00 [queued]>
+[2023-10-22T22:01:22.950+0300] {taskinstance.py:1359} INFO - Starting attempt 7 of 8
+[2023-10-22T22:01:22.956+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): train_hgb> on 2023-10-21 09:45:00+00:00
+[2023-10-22T22:01:22.960+0300] {standard_task_runner.py:57} INFO - Started process 226898 to run task
+[2023-10-22T22:01:22.962+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dm1trybu', 'train_hgb', 'scheduled__2023-10-21T09:45:00+00:00', '--job-id', '150', '--raw', '--subdir', 'DAGS_FOLDER/final_dag_3_models.py', '--cfg-path', '/tmp/tmp39wnjm1y']
+[2023-10-22T22:01:22.964+0300] {standard_task_runner.py:85} INFO - Job 150: Subtask train_hgb
+[2023-10-22T22:01:23.004+0300] {task_command.py:415} INFO - Running <TaskInstance: dm1trybu.train_hgb scheduled__2023-10-21T09:45:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-22T22:01:23.062+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@bk.ru' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='dm1trybu' AIRFLOW_CTX_TASK_ID='train_hgb' AIRFLOW_CTX_EXECUTION_DATE='2023-10-21T09:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-21T09:45:00+00:00'
+[2023-10-22T22:01:23.074+0300] {s3.py:1359} INFO - This function shadows the 'download_file' method of S3 API, but it is not the same. If you want to use the original method from S3 API, please call 'S3Hook.get_conn().download_file()'
+[2023-10-22T22:01:23.074+0300] {s3.py:1365} INFO - Downloading source S3 file from Bucket mlops-project with path dm1trybu/datasets/X_train.pkl
+[2023-10-22T22:01:23.083+0300] {base_aws.py:553} WARNING - Unable to find AWS Connection ID 's3_connection', switching to empty.
+[2023-10-22T22:01:23.083+0300] {base_aws.py:161} INFO - No connection ID provided. Fallback on boto3 credential strategy (region_name=None). See: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
+[2023-10-22T22:01:23.096+0300] {credentials.py:1254} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2023-10-22T22:01:23.239+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-22T22:02:24.244+0300] {s3.py:1359} INFO - This function shadows the 'download_file' method of S3 API, but it is not the same. If you want to use the original method from S3 API, please call 'S3Hook.get_conn().download_file()'
+[2023-10-22T22:02:24.245+0300] {s3.py:1365} INFO - Downloading source S3 file from Bucket mlops-project with path dm1trybu/datasets/X_test.pkl
+[2023-10-22T22:02:24.246+0300] {base_aws.py:161} INFO - No connection ID provided. Fallback on boto3 credential strategy (region_name=None). See: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
+[2023-10-22T22:02:24.269+0300] {credentials.py:1254} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2023-10-22T22:02:24.300+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-22T22:02:47.818+0300] {s3.py:1359} INFO - This function shadows the 'download_file' method of S3 API, but it is not the same. If you want to use the original method from S3 API, please call 'S3Hook.get_conn().download_file()'
+[2023-10-22T22:02:47.819+0300] {s3.py:1365} INFO - Downloading source S3 file from Bucket mlops-project with path dm1trybu/datasets/y_train.pkl
+[2023-10-22T22:02:47.819+0300] {base_aws.py:161} INFO - No connection ID provided. Fallback on boto3 credential strategy (region_name=None). See: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
+[2023-10-22T22:02:47.850+0300] {credentials.py:1254} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2023-10-22T22:02:47.886+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-22T22:03:07.850+0300] {s3.py:1359} INFO - This function shadows the 'download_file' method of S3 API, but it is not the same. If you want to use the original method from S3 API, please call 'S3Hook.get_conn().download_file()'
+[2023-10-22T22:03:07.855+0300] {s3.py:1365} INFO - Downloading source S3 file from Bucket mlops-project with path dm1trybu/datasets/y_test.pkl
+[2023-10-22T22:03:07.856+0300] {base_aws.py:161} INFO - No connection ID provided. Fallback on boto3 credential strategy (region_name=None). See: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
+[2023-10-22T22:03:08.087+0300] {credentials.py:1254} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2023-10-22T22:03:08.136+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-22T22:03:35.494+0300] {migration.py:213} INFO - Context impl PostgresqlImpl.
+[2023-10-22T22:03:35.495+0300] {migration.py:216} INFO - Will assume transactional DDL.
+[2023-10-22T22:03:38.861+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/_distutils_hack/__init__.py:33 UserWarning: Setuptools is replacing distutils.
+[2023-10-22T22:03:38.887+0300] {credentials.py:1254} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2023-10-22T22:04:04.718+0300] {logging_mixin.py:151} WARNING - 2023/10/22 22:04:04 WARNING mlflow.models.model: Logging model metadata to the tracking server has failed. The model artifacts have been logged successfully under s3://mlops-project/dm1trybu/b25b333ea3e142d09cf8de224ace8bb4/artifacts. Set logging level to DEBUG via `logging.getLogger("mlflow").setLevel(logging.DEBUG)` to see the full traceback.
+[2023-10-22T22:04:04.722+0300] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models.py", line 236, in train_model
+    train_mlflow_model(
+  File "/home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models.py", line 209, in train_mlflow_model
+    mlflow.sklearn.save_model(model, name)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/sklearn/__init__.py", line 242, in save_model
+    _validate_and_prepare_target_save_path(path)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/utils/model_utils.py", line 130, in _validate_and_prepare_target_save_path
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Path 'hgb' already exists and is not empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models.py", line 231, in train_model
+    with mlflow.start_run(
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/tracking/fluent.py", line 183, in __exit__
+    end_run(RunStatus.to_string(status))
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/tracking/fluent.py", line 408, in end_run
+    MlflowClient().set_terminated(run.info.run_id, status)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/tracking/client.py", line 1857, in set_terminated
+    self._tracking_client.set_terminated(run_id, status, end_time)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/client.py", line 500, in set_terminated
+    self.store.update_run_info(
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/store/tracking/sqlalchemy_store.py", line 602, in update_run_info
+    self._check_run_is_active(run)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/store/tracking/sqlalchemy_store.py", line 581, in _check_run_is_active
+    raise MlflowException(
+mlflow.exceptions.MlflowException: The run b25b333ea3e142d09cf8de224ace8bb4 must be in the 'active' state. Current state is deleted.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models.py", line 230, in train_model
+    with mlflow.start_run(run_id=metrics["parent_run_id"]):  # parent run
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/tracking/fluent.py", line 183, in __exit__
+    end_run(RunStatus.to_string(status))
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/tracking/fluent.py", line 408, in end_run
+    MlflowClient().set_terminated(run.info.run_id, status)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/tracking/client.py", line 1857, in set_terminated
+    self._tracking_client.set_terminated(run_id, status, end_time)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/client.py", line 500, in set_terminated
+    self.store.update_run_info(
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/store/tracking/sqlalchemy_store.py", line 602, in update_run_info
+    self._check_run_is_active(run)
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/store/tracking/sqlalchemy_store.py", line 581, in _check_run_is_active
+    raise MlflowException(
+mlflow.exceptions.MlflowException: The run 2ec2ae40d98649ceaa1a74ee5698d37d must be in the 'active' state. Current state is deleted.
+[2023-10-22T22:04:04.745+0300] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=dm1trybu, task_id=train_hgb, execution_date=20231021T094500, start_date=20231022T190122, end_date=20231022T190404
+[2023-10-22T22:04:04.758+0300] {standard_task_runner.py:104} ERROR - Failed to execute job 150 for task train_hgb (The run 2ec2ae40d98649ceaa1a74ee5698d37d must be in the 'active' state. Current state is deleted.; 226898)
+[2023-10-22T22:04:04.809+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-22T22:04:04.835+0300] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

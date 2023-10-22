@@ -1,0 +1,266 @@
+[2023-10-22T22:15:26.697+0300] {processor.py:157} INFO - Started process (PID=229918) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:15:26.698+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:15:26.698+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:15:26.698+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:15:27.379+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:15:27.717+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:15:27.830+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:15:27.830+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dm1trybu' as access control is unset.
+[2023-10-22T22:15:27.830+0300] {logging_mixin.py:151} WARNING - Not syncing DAG-level permissions for DAG 'DAG:dm1trybu' as access control is unset.
+[2023-10-22T22:15:27.830+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:15:27.830+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:15:27.831+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:15:27.846+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:15:27.846+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:15:27.846+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:15:27.871+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 1.177 seconds
+[2023-10-22T22:15:57.928+0300] {processor.py:157} INFO - Started process (PID=230002) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:15:57.929+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:15:57.929+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:15:57.929+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:15:58.461+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:15:58.765+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:15:58.788+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:15:58.788+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:15:58.788+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:15:58.813+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:15:58.813+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:15:58.813+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:15:58.842+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.917 seconds
+[2023-10-22T22:16:28.901+0300] {processor.py:157} INFO - Started process (PID=230080) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:16:28.902+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:16:28.903+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:16:28.902+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:16:29.539+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:16:29.835+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:16:29.855+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:16:29.855+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:16:29.855+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:16:29.866+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:16:29.866+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:16:29.866+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:16:29.877+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.978 seconds
+[2023-10-22T22:16:59.915+0300] {processor.py:157} INFO - Started process (PID=230159) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:16:59.916+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:16:59.917+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:16:59.916+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:17:00.459+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:17:00.736+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:17:00.755+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:17:00.755+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:17:00.755+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:17:00.766+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:17:00.766+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:17:00.766+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:17:00.777+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.864 seconds
+[2023-10-22T22:17:31.420+0300] {processor.py:157} INFO - Started process (PID=230241) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:17:31.422+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:17:31.423+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:17:31.423+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:17:31.982+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:17:32.252+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:17:32.270+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:17:32.270+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:17:32.270+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:17:32.282+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:17:32.282+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:17:32.282+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:17:32.291+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.873 seconds
+[2023-10-22T22:18:02.650+0300] {processor.py:157} INFO - Started process (PID=230319) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:18:02.652+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:18:02.652+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:18:02.652+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:18:03.197+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:18:03.477+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:18:03.495+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:18:03.494+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:18:03.495+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:18:03.507+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:18:03.506+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:18:03.507+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:18:03.524+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.876 seconds
+[2023-10-22T22:18:33.679+0300] {processor.py:157} INFO - Started process (PID=230397) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:18:33.681+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:18:33.682+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:18:33.682+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:18:34.201+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:18:34.649+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:18:34.669+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:18:34.669+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:18:34.669+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:18:34.681+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:18:34.681+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:18:34.682+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:18:34.692+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 1.015 seconds
+[2023-10-22T22:19:05.618+0300] {processor.py:157} INFO - Started process (PID=230481) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:19:05.620+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:19:05.620+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:19:05.620+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:19:06.129+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:19:06.402+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:19:06.420+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:19:06.420+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:19:06.420+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:19:06.433+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:19:06.433+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:19:06.434+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:19:06.443+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.827 seconds
+[2023-10-22T22:19:36.496+0300] {processor.py:157} INFO - Started process (PID=230559) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:19:36.498+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:19:36.498+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:19:36.498+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:19:37.068+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:19:37.346+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:19:37.365+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:19:37.364+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:19:37.365+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:19:37.379+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:19:37.378+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:19:37.379+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:19:37.390+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.896 seconds
+[2023-10-22T22:20:07.476+0300] {processor.py:157} INFO - Started process (PID=230639) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:20:07.478+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:20:07.479+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:20:07.479+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:20:08.218+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:20:08.506+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:20:08.526+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:20:08.525+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:20:08.526+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:20:08.537+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:20:08.537+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:20:08.537+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:20:08.550+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 1.077 seconds
+[2023-10-22T22:20:38.631+0300] {processor.py:157} INFO - Started process (PID=230725) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:20:38.632+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:20:38.633+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:20:38.633+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:20:39.117+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:20:39.353+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:20:39.369+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:20:39.369+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:20:39.369+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:20:39.380+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:20:39.380+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:20:39.380+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:20:39.389+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.762 seconds
+[2023-10-22T22:21:09.439+0300] {processor.py:157} INFO - Started process (PID=230816) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:21:09.441+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:21:09.441+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:21:09.441+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:21:09.915+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:21:10.146+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:21:10.163+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:21:10.163+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:21:10.164+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:21:10.174+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:21:10.174+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:21:10.175+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:21:10.182+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.748 seconds
+[2023-10-22T22:21:40.703+0300] {processor.py:157} INFO - Started process (PID=230904) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:21:40.705+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:21:40.705+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:21:40.705+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:21:41.414+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:21:41.690+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:21:41.708+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:21:41.708+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:21:41.709+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:21:41.720+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:21:41.720+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:21:41.720+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:21:41.731+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 1.032 seconds
+[2023-10-22T22:22:11.862+0300] {processor.py:157} INFO - Started process (PID=230990) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:22:11.863+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:22:11.864+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:22:11.864+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:22:12.378+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:22:12.635+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:22:12.653+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:22:12.653+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:22:12.653+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:22:12.665+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:22:12.665+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:22:12.665+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:22:12.674+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.816 seconds
+[2023-10-22T22:22:43.205+0300] {processor.py:157} INFO - Started process (PID=231074) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:22:43.206+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:22:43.206+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:22:43.206+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:22:43.680+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:22:43.920+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:22:43.938+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:22:43.938+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:22:43.938+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:22:43.948+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:22:43.948+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:22:43.948+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:22:43.956+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.755 seconds
+[2023-10-22T22:23:14.271+0300] {processor.py:157} INFO - Started process (PID=231152) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:23:14.272+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:23:14.273+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:23:14.272+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:23:14.739+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:23:14.973+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:23:14.989+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:23:14.989+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:23:14.990+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:23:14.999+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:23:14.999+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:23:15.000+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:23:15.007+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.739 seconds
+[2023-10-22T22:23:45.408+0300] {processor.py:157} INFO - Started process (PID=231230) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:23:45.409+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:23:45.410+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:23:45.409+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:23:45.925+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:23:46.156+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:23:46.174+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:23:46.173+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:23:46.174+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:23:46.184+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:23:46.184+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:23:46.184+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:23:46.193+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.789 seconds
+[2023-10-22T22:24:16.598+0300] {processor.py:157} INFO - Started process (PID=231310) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:24:16.600+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:24:16.601+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:24:16.600+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:24:17.060+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:24:17.291+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:24:17.309+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:24:17.309+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:24:17.309+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:24:17.318+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:24:17.318+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:24:17.318+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:24:17.327+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.733 seconds
+[2023-10-22T22:24:47.887+0300] {processor.py:157} INFO - Started process (PID=231388) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:24:47.888+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:24:47.889+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:24:47.888+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:24:48.369+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:24:48.603+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:24:48.619+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:24:48.619+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:24:48.619+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:24:48.629+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:24:48.628+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:24:48.629+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:24:48.637+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.753 seconds
+[2023-10-22T22:25:19.031+0300] {processor.py:157} INFO - Started process (PID=231469) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:25:19.031+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:25:19.032+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:25:19.032+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:25:19.549+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:25:19.718+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:25:19.734+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:25:19.734+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:25:19.734+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:25:19.744+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:25:19.744+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:25:19.744+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:25:19.752+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.724 seconds
+[2023-10-22T22:25:50.586+0300] {processor.py:157} INFO - Started process (PID=231582) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:25:50.587+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:25:50.588+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:25:50.588+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:25:51.108+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:25:51.288+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:25:51.305+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:25:51.304+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:25:51.305+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:25:51.314+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:25:51.314+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:25:51.314+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:25:51.323+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.739 seconds
+[2023-10-22T22:26:21.455+0300] {processor.py:157} INFO - Started process (PID=231790) to work on /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:26:21.455+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py for tasks to queue
+[2023-10-22T22:26:21.456+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:26:21.456+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:26:21.976+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/pydantic/_internal/_fields.py:127 UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+[2023-10-22T22:26:22.141+0300] {processor.py:839} INFO - DAG(s) dict_keys(['dm1trybu']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py
+[2023-10-22T22:26:22.158+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:26:22.158+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T22:26:22.158+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T22:26:22.167+0300] {logging_mixin.py:151} INFO - [2023-10-22T22:26:22.167+0300] {dag.py:3696} INFO - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:26:22.167+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for dm1trybu to 2023-10-22T09:45:00+00:00, run_after=2023-10-23T09:45:00+00:00
+[2023-10-22T22:26:22.176+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models_bulgakov.py took 0.724 seconds

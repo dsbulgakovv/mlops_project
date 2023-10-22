@@ -1,0 +1,23 @@
+[2023-10-22T21:58:51.882+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dm1trybu.get_data_from_postgres scheduled__2023-10-21T09:45:00+00:00 [queued]>
+[2023-10-22T21:58:51.887+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dm1trybu.get_data_from_postgres scheduled__2023-10-21T09:45:00+00:00 [queued]>
+[2023-10-22T21:58:51.887+0300] {taskinstance.py:1359} INFO - Starting attempt 6 of 9
+[2023-10-22T21:58:51.894+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): get_data_from_postgres> on 2023-10-21 09:45:00+00:00
+[2023-10-22T21:58:51.901+0300] {standard_task_runner.py:57} INFO - Started process 225960 to run task
+[2023-10-22T21:58:51.905+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dm1trybu', 'get_data_from_postgres', 'scheduled__2023-10-21T09:45:00+00:00', '--job-id', '142', '--raw', '--subdir', 'DAGS_FOLDER/final_dag_3_models.py', '--cfg-path', '/tmp/tmp_edwjizu']
+[2023-10-22T21:58:51.908+0300] {standard_task_runner.py:85} INFO - Job 142: Subtask get_data_from_postgres
+[2023-10-22T21:58:51.961+0300] {task_command.py:415} INFO - Running <TaskInstance: dm1trybu.get_data_from_postgres scheduled__2023-10-21T09:45:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-22T21:58:52.034+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@bk.ru' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='dm1trybu' AIRFLOW_CTX_TASK_ID='get_data_from_postgres' AIRFLOW_CTX_EXECUTION_DATE='2023-10-21T09:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-21T09:45:00+00:00'
+[2023-10-22T21:58:52.046+0300] {final_dag_3_models.py:116} INFO - Connecting to Postgres...
+[2023-10-22T21:58:52.058+0300] {base.py:73} INFO - Using connection ID 'pg_connection' for task execution.
+[2023-10-22T21:58:52.065+0300] {final_dag_3_models.py:121} INFO - Data downloading from Postgres...
+[2023-10-22T21:58:52.068+0300] {logging_mixin.py:151} WARNING - /home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models.py:122 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2023-10-22T21:58:52.146+0300] {final_dag_3_models.py:126} INFO - Connecting to S3...
+[2023-10-22T21:58:52.155+0300] {base_aws.py:553} WARNING - Unable to find AWS Connection ID 's3_connection', switching to empty.
+[2023-10-22T21:58:52.156+0300] {base_aws.py:161} INFO - No connection ID provided. Fallback on boto3 credential strategy (region_name='ru-central1'). See: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
+[2023-10-22T21:58:52.172+0300] {credentials.py:1254} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2023-10-22T21:58:52.384+0300] {configprovider.py:949} INFO - Found endpoint for s3 via: config_global.
+[2023-10-22T21:58:54.293+0300] {final_dag_3_models.py:132} INFO - Data is uploaded to S3.
+[2023-10-22T21:58:54.294+0300] {python.py:194} INFO - Done. Returned value was: {'start_tiemstamp': '20231022 21:58', 'parent_run_name': 'parent_3_models', 'experiment_name': 'dm1trybu', 'experiment_id': '32', 'parent_run_id': '2ec2ae40d98649ceaa1a74ee5698d37d', 'data_download_start': '20231022 21:58', 'data_download_end': '20231022 21:58'}
+[2023-10-22T21:58:54.324+0300] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=dm1trybu, task_id=get_data_from_postgres, execution_date=20231021T094500, start_date=20231022T185851, end_date=20231022T185854
+[2023-10-22T21:58:54.375+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-22T21:58:54.401+0300] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

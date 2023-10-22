@@ -1,0 +1,1099 @@
+[2023-10-22T01:26:14.767+0300] {processor.py:157} INFO - Started process (PID=153350) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:26:14.768+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:26:14.768+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:26:14.768+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:26:15.422+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:26:15.541+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:26:15.541+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-22T01:26:15.541+0300] {logging_mixin.py:151} WARNING - Created Permission View: %s
+[2023-10-22T01:26:15.546+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:26:15.546+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-22T01:26:15.547+0300] {logging_mixin.py:151} WARNING - Created Permission View: %s
+[2023-10-22T01:26:15.551+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:26:15.551+0300] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-22T01:26:15.551+0300] {logging_mixin.py:151} WARNING - Created Permission View: %s
+[2023-10-22T01:26:15.551+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:26:15.551+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:3_models_dag' as access control is unset.
+[2023-10-22T01:26:15.551+0300] {logging_mixin.py:151} WARNING - Not syncing DAG-level permissions for DAG 'DAG:3_models_dag' as access control is unset.
+[2023-10-22T01:26:15.551+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:26:15.551+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:26:15.551+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:26:15.556+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:26:15.556+0300] {dag.py:2937} INFO - Creating ORM DAG for 3_models_dag
+[2023-10-22T01:26:15.556+0300] {logging_mixin.py:151} WARNING - Creating ORM DAG for 3_models_dag
+[2023-10-22T01:26:15.563+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:26:15.563+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:26:15.563+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:26:15.573+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.809 seconds
+[2023-10-22T01:26:46.085+0300] {processor.py:157} INFO - Started process (PID=153429) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:26:46.086+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:26:46.087+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:26:46.086+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:26:46.542+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:26:46.558+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:26:46.558+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:26:46.558+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:26:46.567+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:26:46.567+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:26:46.567+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:26:46.575+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.494 seconds
+[2023-10-22T01:27:17.182+0300] {processor.py:157} INFO - Started process (PID=153499) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:27:17.183+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:27:17.184+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:27:17.184+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:27:17.657+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:27:17.673+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:27:17.673+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:27:17.673+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:27:17.682+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:27:17.682+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:27:17.682+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:27:17.691+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.514 seconds
+[2023-10-22T01:27:48.220+0300] {processor.py:157} INFO - Started process (PID=153571) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:27:48.221+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:27:48.222+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:27:48.222+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:27:48.668+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:27:48.685+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:27:48.684+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:27:48.685+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:27:48.694+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:27:48.694+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:27:48.694+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:27:48.702+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.486 seconds
+[2023-10-22T01:28:19.579+0300] {processor.py:157} INFO - Started process (PID=153666) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:28:19.580+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:28:19.582+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:28:19.581+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:28:20.290+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:28:20.309+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:28:20.308+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:28:20.309+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:28:20.319+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:28:20.318+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:28:20.319+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:28:20.327+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.753 seconds
+[2023-10-22T01:28:50.741+0300] {processor.py:157} INFO - Started process (PID=153743) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:28:50.742+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:28:50.742+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:28:50.742+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:28:51.258+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:28:51.275+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:28:51.274+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:28:51.275+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:28:51.284+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:28:51.284+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:28:51.284+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:28:51.293+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.554 seconds
+[2023-10-22T01:29:22.131+0300] {processor.py:157} INFO - Started process (PID=153822) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:29:22.133+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:29:22.134+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:29:22.134+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:29:22.639+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:29:22.655+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:29:22.655+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:29:22.656+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:29:22.664+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:29:22.664+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:29:22.664+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:29:22.672+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.546 seconds
+[2023-10-22T01:29:53.660+0300] {processor.py:157} INFO - Started process (PID=153893) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:29:53.661+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:29:53.662+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:29:53.662+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:29:54.139+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:29:54.154+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:29:54.154+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:29:54.154+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:29:54.163+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:29:54.163+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:29:54.163+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:29:54.171+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.517 seconds
+[2023-10-22T01:30:24.216+0300] {processor.py:157} INFO - Started process (PID=154020) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:30:24.218+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:30:24.219+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:30:24.219+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:30:25.114+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:30:25.134+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:30:25.134+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:30:25.134+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:30:25.148+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:30:25.148+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:30:25.149+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:30:25.159+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.948 seconds
+[2023-10-22T01:30:55.796+0300] {processor.py:157} INFO - Started process (PID=154090) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:30:55.798+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:30:55.799+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:30:55.798+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:30:56.313+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:30:56.329+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:30:56.328+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:30:56.329+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:30:56.338+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:30:56.337+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:30:56.338+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:30:56.346+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.555 seconds
+[2023-10-22T01:31:27.040+0300] {processor.py:157} INFO - Started process (PID=154160) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:31:27.041+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:31:27.042+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:31:27.041+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:31:27.830+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:31:27.851+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:31:27.851+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:31:27.851+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:31:27.861+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:31:27.861+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:31:27.861+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:31:27.870+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.838 seconds
+[2023-10-22T01:31:58.547+0300] {processor.py:157} INFO - Started process (PID=154236) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:31:58.549+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:31:58.549+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:31:58.549+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:31:59.040+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:31:59.057+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:31:59.057+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:31:59.057+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:31:59.066+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:31:59.066+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:31:59.066+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:31:59.080+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.536 seconds
+[2023-10-22T01:32:29.153+0300] {processor.py:157} INFO - Started process (PID=154307) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:32:29.155+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:32:29.156+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:32:29.155+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:32:29.812+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:32:29.830+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:32:29.829+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:32:29.830+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:32:29.840+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:32:29.839+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:32:29.840+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:32:29.849+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.702 seconds
+[2023-10-22T01:33:00.387+0300] {processor.py:157} INFO - Started process (PID=154379) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:33:00.388+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:33:00.388+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:33:00.388+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:33:01.155+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:33:01.184+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:33:01.183+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:33:01.184+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:33:01.200+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:33:01.199+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:33:01.200+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:33:01.219+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.834 seconds
+[2023-10-22T01:33:31.476+0300] {processor.py:157} INFO - Started process (PID=154455) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:33:31.480+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:33:31.480+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:33:31.480+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:33:32.076+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:33:32.094+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:33:32.094+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:33:32.094+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:33:32.107+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:33:32.107+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:33:32.107+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:33:32.116+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.643 seconds
+[2023-10-22T01:34:02.705+0300] {processor.py:157} INFO - Started process (PID=154533) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:34:02.706+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:34:02.706+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:34:02.706+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:34:03.210+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:34:03.226+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:34:03.226+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:34:03.226+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:34:03.236+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:34:03.236+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:34:03.236+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:34:03.244+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.541 seconds
+[2023-10-22T01:34:33.541+0300] {processor.py:157} INFO - Started process (PID=154637) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:34:33.543+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:34:33.544+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:34:33.543+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:34:34.197+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:34:34.219+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:34:34.219+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:34:34.219+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:34:34.234+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:34:34.234+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:34:34.234+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:34:34.243+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.707 seconds
+[2023-10-22T01:35:04.279+0300] {processor.py:157} INFO - Started process (PID=154718) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:35:04.280+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:35:04.280+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:35:04.280+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:35:04.731+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:35:04.747+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:35:04.747+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:35:04.747+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:35:04.756+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:35:04.756+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:35:04.756+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:35:04.764+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.488 seconds
+[2023-10-22T01:35:35.144+0300] {processor.py:157} INFO - Started process (PID=154799) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:35:35.145+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:35:35.146+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:35:35.146+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:35:35.680+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:35:35.699+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:35:35.699+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:35:35.700+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:35:35.710+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:35:35.710+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:35:35.710+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:35:35.722+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.582 seconds
+[2023-10-22T01:36:05.932+0300] {processor.py:157} INFO - Started process (PID=154905) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:36:05.933+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:36:05.934+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:36:05.933+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:36:06.423+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:36:06.443+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:36:06.442+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:36:06.443+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:36:06.454+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:36:06.454+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:36:06.455+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:36:06.469+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.542 seconds
+[2023-10-22T01:36:36.795+0300] {processor.py:157} INFO - Started process (PID=154986) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:36:36.796+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:36:36.796+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:36:36.796+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:36:37.255+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:36:37.280+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:36:37.280+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:36:37.280+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:36:37.293+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:36:37.293+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:36:37.294+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:36:37.303+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.510 seconds
+[2023-10-22T01:37:07.567+0300] {processor.py:157} INFO - Started process (PID=155067) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:37:07.568+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:37:07.568+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:37:07.568+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:37:08.127+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:37:08.144+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:37:08.144+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:37:08.144+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:37:08.155+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:37:08.155+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:37:08.155+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:37:08.171+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.606 seconds
+[2023-10-22T01:37:38.886+0300] {processor.py:157} INFO - Started process (PID=155149) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:37:38.887+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:37:38.887+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:37:38.887+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:37:39.349+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:37:39.365+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:37:39.364+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:37:39.365+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:37:39.373+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:37:39.373+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:37:39.373+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:37:39.382+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.499 seconds
+[2023-10-22T01:38:10.347+0300] {processor.py:157} INFO - Started process (PID=155289) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:38:10.348+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:38:10.348+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:38:10.348+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:38:10.847+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:38:10.862+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:38:10.862+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:38:10.862+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:38:10.871+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:38:10.870+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:38:10.871+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:38:10.879+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.536 seconds
+[2023-10-22T01:38:41.619+0300] {processor.py:157} INFO - Started process (PID=155363) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:38:41.620+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:38:41.621+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:38:41.620+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:38:42.046+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:38:42.062+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:38:42.062+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:38:42.062+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:38:42.071+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:38:42.071+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:38:42.071+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:38:42.079+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.463 seconds
+[2023-10-22T01:39:12.903+0300] {processor.py:157} INFO - Started process (PID=155443) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:39:12.904+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:39:12.905+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:39:12.905+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:39:13.326+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:39:13.343+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:39:13.342+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:39:13.343+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:39:13.352+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:39:13.352+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:39:13.352+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:39:13.362+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.462 seconds
+[2023-10-22T01:39:44.226+0300] {processor.py:157} INFO - Started process (PID=155516) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:39:44.228+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:39:44.229+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:39:44.228+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:39:44.659+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:39:44.675+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:39:44.674+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:39:44.675+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:39:44.684+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:39:44.683+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:39:44.684+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:39:44.692+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.470 seconds
+[2023-10-22T01:40:15.562+0300] {processor.py:157} INFO - Started process (PID=155590) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:40:15.563+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:40:15.563+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:40:15.563+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:40:15.995+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:40:16.012+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:40:16.012+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:40:16.012+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:40:16.022+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:40:16.022+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:40:16.022+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:40:16.034+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.475 seconds
+[2023-10-22T01:40:47.036+0300] {processor.py:157} INFO - Started process (PID=155669) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:40:47.037+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:40:47.038+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:40:47.037+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:40:47.457+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:40:47.472+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:40:47.472+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:40:47.473+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:40:47.481+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:40:47.481+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:40:47.481+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:40:47.490+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.459 seconds
+[2023-10-22T01:41:18.402+0300] {processor.py:157} INFO - Started process (PID=155790) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:41:18.405+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:41:18.406+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:41:18.405+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:41:18.893+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:41:18.914+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:41:18.913+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:41:18.914+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:41:18.923+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:41:18.923+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:41:18.924+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:41:18.932+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.534 seconds
+[2023-10-22T01:41:49.778+0300] {processor.py:157} INFO - Started process (PID=155889) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:41:49.779+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:41:49.780+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:41:49.780+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:41:50.222+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:41:50.239+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:41:50.239+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:41:50.239+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:41:50.248+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:41:50.248+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:41:50.248+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:41:50.258+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.482 seconds
+[2023-10-22T01:42:21.188+0300] {processor.py:157} INFO - Started process (PID=155960) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:42:21.189+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:42:21.190+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:42:21.190+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:42:21.619+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:42:21.636+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:42:21.635+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:42:21.636+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:42:21.646+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:42:21.645+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:42:21.646+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:42:21.654+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.469 seconds
+[2023-10-22T01:42:52.459+0300] {processor.py:157} INFO - Started process (PID=156042) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:42:52.459+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:42:52.460+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:42:52.460+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:42:53.044+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:42:53.061+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:42:53.061+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:42:53.061+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:42:53.071+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:42:53.071+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:42:53.071+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:42:53.085+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.630 seconds
+[2023-10-22T01:43:23.878+0300] {processor.py:157} INFO - Started process (PID=156117) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:43:23.880+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:43:23.881+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:43:23.881+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:43:24.364+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:43:24.380+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:43:24.380+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:43:24.380+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:43:24.389+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:43:24.389+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:43:24.389+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:43:24.397+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.522 seconds
+[2023-10-22T01:43:55.176+0300] {processor.py:157} INFO - Started process (PID=156196) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:43:55.177+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:43:55.177+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:43:55.177+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:43:55.667+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:43:55.683+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:43:55.682+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:43:55.683+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:43:55.691+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:43:55.691+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:43:55.691+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:43:55.700+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.528 seconds
+[2023-10-22T01:44:26.593+0300] {processor.py:157} INFO - Started process (PID=156298) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:44:26.595+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:44:26.596+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:44:26.595+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:44:27.018+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:44:27.033+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:44:27.033+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:44:27.033+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:44:27.042+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:44:27.041+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:44:27.042+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:44:27.049+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.461 seconds
+[2023-10-22T01:44:57.859+0300] {processor.py:157} INFO - Started process (PID=156369) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:44:57.860+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:44:57.860+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:44:57.860+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:44:58.284+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:44:58.301+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:44:58.301+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:44:58.301+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:44:58.310+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:44:58.310+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:44:58.310+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:44:58.318+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.462 seconds
+[2023-10-22T01:45:29.083+0300] {processor.py:157} INFO - Started process (PID=156476) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:45:29.085+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:45:29.086+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:45:29.086+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:45:29.572+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:45:29.589+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:45:29.589+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:45:29.589+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:45:29.598+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:45:29.598+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:45:29.598+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:45:29.606+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.528 seconds
+[2023-10-22T01:46:00.587+0300] {processor.py:157} INFO - Started process (PID=156551) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:46:00.588+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:46:00.589+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:46:00.588+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:46:01.032+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:46:01.050+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:46:01.050+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:46:01.050+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:46:01.062+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:46:01.062+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:46:01.062+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:46:01.072+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.490 seconds
+[2023-10-22T01:46:31.932+0300] {processor.py:157} INFO - Started process (PID=156681) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:46:31.933+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:46:31.934+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:46:31.934+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:46:32.353+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:46:32.368+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:46:32.368+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:46:32.368+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:46:32.377+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:46:32.377+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:46:32.377+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:46:32.385+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.457 seconds
+[2023-10-22T01:47:03.016+0300] {processor.py:157} INFO - Started process (PID=156756) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:47:03.018+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:47:03.019+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:47:03.019+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:47:03.458+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:47:03.475+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:47:03.475+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:47:03.475+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:47:03.484+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:47:03.484+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:47:03.484+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:47:03.493+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.481 seconds
+[2023-10-22T01:47:34.450+0300] {processor.py:157} INFO - Started process (PID=156831) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:47:34.451+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:47:34.452+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:47:34.451+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:47:34.866+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:47:34.882+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:47:34.881+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:47:34.882+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:47:34.890+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:47:34.890+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:47:34.890+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:47:34.898+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.452 seconds
+[2023-10-22T01:48:05.718+0300] {processor.py:157} INFO - Started process (PID=156906) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:48:05.719+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:48:05.720+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:48:05.720+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:48:06.204+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:48:06.223+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:48:06.223+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:48:06.223+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:48:06.232+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:48:06.232+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:48:06.232+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:48:06.240+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.525 seconds
+[2023-10-22T01:48:37.091+0300] {processor.py:157} INFO - Started process (PID=156989) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:48:37.093+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:48:37.094+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:48:37.094+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:48:37.549+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:48:37.566+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:48:37.566+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:48:37.567+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:48:37.576+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:48:37.576+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:48:37.576+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:48:37.585+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.498 seconds
+[2023-10-22T01:49:08.438+0300] {processor.py:157} INFO - Started process (PID=157114) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:49:08.439+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:49:08.439+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:49:08.439+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:49:08.885+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:49:08.902+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:49:08.902+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:49:08.902+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:49:08.913+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:49:08.913+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:49:08.913+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:49:08.924+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.490 seconds
+[2023-10-22T01:49:39.757+0300] {processor.py:157} INFO - Started process (PID=157202) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:49:39.760+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:49:39.761+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:49:39.760+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:49:40.277+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:49:40.293+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:49:40.293+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:49:40.293+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:49:40.302+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:49:40.302+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:49:40.302+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:49:40.311+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.559 seconds
+[2023-10-22T01:50:11.117+0300] {processor.py:157} INFO - Started process (PID=157281) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:50:11.117+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:50:11.118+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:50:11.118+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:50:11.612+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:50:11.629+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:50:11.629+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:50:11.629+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:50:11.639+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:50:11.639+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:50:11.639+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:50:11.648+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.533 seconds
+[2023-10-22T01:50:42.325+0300] {processor.py:157} INFO - Started process (PID=157357) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:50:42.326+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:50:42.327+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:50:42.327+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:50:42.761+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:50:42.777+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:50:42.776+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:50:42.777+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:50:42.786+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:50:42.786+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:50:42.786+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:50:42.794+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.471 seconds
+[2023-10-22T01:51:12.833+0300] {processor.py:157} INFO - Started process (PID=157435) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:51:12.834+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:51:12.834+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:51:12.834+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:51:13.364+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:51:13.381+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:51:13.380+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:51:13.381+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:51:13.390+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:51:13.390+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:51:13.390+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:51:13.401+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.572 seconds
+[2023-10-22T01:51:44.307+0300] {processor.py:157} INFO - Started process (PID=157537) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:51:44.308+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:51:44.309+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:51:44.308+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:51:44.880+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:51:44.901+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:51:44.901+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:51:44.902+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:51:44.911+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:51:44.911+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:51:44.911+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:51:44.922+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.619 seconds
+[2023-10-22T01:52:15.780+0300] {processor.py:157} INFO - Started process (PID=157617) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:52:15.785+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:52:15.786+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:52:15.786+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:52:16.465+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:52:16.485+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:52:16.484+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:52:16.485+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:52:16.496+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:52:16.496+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:52:16.496+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:52:16.505+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.730 seconds
+[2023-10-22T01:52:47.084+0300] {processor.py:157} INFO - Started process (PID=157716) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:52:47.085+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:52:47.086+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:52:47.086+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:52:47.511+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:52:47.527+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:52:47.526+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:52:47.527+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:52:47.536+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:52:47.536+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:52:47.536+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:52:47.544+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.464 seconds
+[2023-10-22T01:53:18.476+0300] {processor.py:157} INFO - Started process (PID=157821) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:53:18.477+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:53:18.478+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:53:18.477+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:53:18.948+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:53:19.032+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:53:19.032+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:53:19.033+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:53:19.048+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:53:19.048+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:53:19.048+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:53:19.059+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.587 seconds
+[2023-10-22T01:53:49.554+0300] {processor.py:157} INFO - Started process (PID=157926) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:53:49.556+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:53:49.556+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:53:49.556+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:53:50.051+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:53:50.069+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:53:50.069+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:53:50.069+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:53:50.078+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:53:50.078+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:53:50.078+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:53:50.087+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.536 seconds
+[2023-10-22T01:54:20.957+0300] {processor.py:157} INFO - Started process (PID=158000) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:54:20.958+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:54:20.959+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:54:20.958+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:54:21.521+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:54:21.539+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:54:21.538+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:54:21.539+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:54:21.548+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:54:21.548+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:54:21.549+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:54:21.557+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.604 seconds
+[2023-10-22T01:54:52.165+0300] {processor.py:157} INFO - Started process (PID=158073) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:54:52.165+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:54:52.166+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:54:52.166+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:54:52.701+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:54:52.717+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:54:52.717+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:54:52.717+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:54:52.726+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:54:52.726+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:54:52.726+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:54:52.735+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.574 seconds
+[2023-10-22T01:55:23.586+0300] {processor.py:157} INFO - Started process (PID=158154) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:55:23.587+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:55:23.588+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:55:23.587+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:55:24.112+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:55:24.129+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:55:24.128+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:55:24.129+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:55:24.139+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:55:24.139+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:55:24.139+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:55:24.149+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.565 seconds
+[2023-10-22T01:55:54.981+0300] {processor.py:157} INFO - Started process (PID=158228) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:55:54.981+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:55:54.982+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:55:54.982+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:55:55.460+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:55:55.477+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:55:55.477+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:55:55.477+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:55:55.492+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:55:55.492+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:55:55.492+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:55:55.505+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.526 seconds
+[2023-10-22T01:56:26.403+0300] {processor.py:157} INFO - Started process (PID=158301) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:56:26.404+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:56:26.405+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:56:26.404+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:56:26.955+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:56:26.974+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:56:26.974+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:56:26.974+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:56:26.985+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:56:26.985+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:56:26.986+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:56:26.995+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.598 seconds
+[2023-10-22T01:56:57.850+0300] {processor.py:157} INFO - Started process (PID=158392) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:56:57.851+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:56:57.851+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:56:57.851+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:56:58.407+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:56:58.427+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:56:58.426+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:56:58.427+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:56:58.436+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:56:58.436+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:56:58.436+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:56:58.446+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.600 seconds
+[2023-10-22T01:57:29.354+0300] {processor.py:157} INFO - Started process (PID=158468) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:57:29.356+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:57:29.357+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:57:29.357+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:57:29.901+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:57:29.924+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:57:29.924+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:57:29.925+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:57:29.935+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:57:29.935+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:57:29.935+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:57:29.944+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.597 seconds
+[2023-10-22T01:58:00.689+0300] {processor.py:157} INFO - Started process (PID=158559) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:58:00.690+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:58:00.690+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:58:00.690+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:58:01.321+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:58:01.338+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:58:01.337+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:58:01.338+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:58:01.347+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:58:01.347+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:58:01.347+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:58:01.368+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.681 seconds
+[2023-10-22T01:58:32.222+0300] {processor.py:157} INFO - Started process (PID=158641) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:58:32.224+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:58:32.225+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:58:32.224+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:58:32.819+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:58:32.836+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:58:32.836+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:58:32.836+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:58:32.846+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:58:32.846+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:58:32.846+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:58:32.855+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.639 seconds
+[2023-10-22T01:59:03.669+0300] {processor.py:157} INFO - Started process (PID=158755) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:59:03.670+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:59:03.671+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:59:03.670+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:59:04.352+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:59:04.371+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:59:04.370+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:59:04.371+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:59:04.382+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:59:04.382+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:59:04.382+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:59:04.391+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.728 seconds
+[2023-10-22T01:59:35.115+0300] {processor.py:157} INFO - Started process (PID=158830) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:59:35.117+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T01:59:35.117+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:59:35.117+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:59:35.927+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T01:59:35.944+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:59:35.944+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T01:59:35.944+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T01:59:35.954+0300] {logging_mixin.py:151} INFO - [2023-10-22T01:59:35.954+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:59:35.954+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T01:59:35.963+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.852 seconds
+[2023-10-22T02:00:06.839+0300] {processor.py:157} INFO - Started process (PID=158925) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:00:06.840+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:00:06.841+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:00:06.841+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:00:07.457+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:00:07.474+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:00:07.474+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:00:07.474+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:00:07.484+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:00:07.484+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:00:07.484+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:00:07.494+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.661 seconds
+[2023-10-22T02:00:38.244+0300] {processor.py:157} INFO - Started process (PID=158998) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:00:38.247+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:00:38.247+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:00:38.247+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:00:38.952+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:00:38.972+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:00:38.971+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:00:38.972+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:00:38.983+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:00:38.983+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:00:38.983+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:00:38.993+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.759 seconds
+[2023-10-22T02:01:09.105+0300] {processor.py:157} INFO - Started process (PID=159071) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:01:09.106+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:01:09.107+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:01:09.107+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:01:09.655+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:01:09.672+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:01:09.672+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:01:09.672+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:01:09.682+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:01:09.682+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:01:09.682+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:01:09.691+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.590 seconds
+[2023-10-22T02:01:40.081+0300] {processor.py:157} INFO - Started process (PID=159148) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:01:40.082+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:01:40.083+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:01:40.083+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:01:40.705+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:01:40.721+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:01:40.721+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:01:40.721+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:01:40.732+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:01:40.732+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:01:40.732+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:01:40.741+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.666 seconds
+[2023-10-22T02:02:11.522+0300] {processor.py:157} INFO - Started process (PID=159224) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:02:11.523+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:02:11.524+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:02:11.524+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:02:12.122+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:02:12.139+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:02:12.139+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:02:12.140+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:02:12.152+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:02:12.152+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:02:12.152+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:02:12.164+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.649 seconds
+[2023-10-22T02:02:42.895+0300] {processor.py:157} INFO - Started process (PID=159346) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:02:42.896+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:02:42.897+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:02:42.896+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:02:43.552+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:02:43.576+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:02:43.576+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:02:43.576+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:02:43.590+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:02:43.590+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:02:43.590+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:02:43.601+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.711 seconds
+[2023-10-22T02:03:14.487+0300] {processor.py:157} INFO - Started process (PID=159424) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:03:14.489+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:03:14.489+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:03:14.489+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:03:15.080+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:03:15.097+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:03:15.097+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:03:15.097+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:03:15.107+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:03:15.107+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:03:15.107+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:03:15.116+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.633 seconds
+[2023-10-22T02:03:45.949+0300] {processor.py:157} INFO - Started process (PID=159499) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:03:45.950+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:03:45.950+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:03:45.950+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:03:46.492+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:03:46.515+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:03:46.515+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:03:46.515+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:03:46.530+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:03:46.530+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:03:46.530+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:03:46.547+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.601 seconds
+[2023-10-22T02:04:17.503+0300] {processor.py:157} INFO - Started process (PID=159590) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:04:17.504+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:04:17.505+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:04:17.505+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:04:18.004+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:04:18.022+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:04:18.022+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:04:18.022+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:04:18.032+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:04:18.031+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:04:18.032+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:04:18.041+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.541 seconds
+[2023-10-22T02:04:48.827+0300] {processor.py:157} INFO - Started process (PID=159670) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:04:48.829+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:04:48.830+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:04:48.829+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:04:49.339+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:04:49.357+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:04:49.356+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:04:49.357+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:04:49.366+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:04:49.366+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:04:49.366+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:04:49.377+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.554 seconds
+[2023-10-22T02:05:20.111+0300] {processor.py:157} INFO - Started process (PID=159756) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:05:20.112+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:05:20.113+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:05:20.112+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:05:20.696+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:05:20.715+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:05:20.714+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:05:20.715+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:05:20.725+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:05:20.725+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:05:20.725+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:05:20.734+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.625 seconds
+[2023-10-22T02:05:51.621+0300] {processor.py:157} INFO - Started process (PID=159838) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:05:51.623+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:05:51.624+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:05:51.624+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:05:52.408+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:05:52.432+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:05:52.431+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:05:52.432+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:05:52.445+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:05:52.445+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:05:52.446+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:05:52.458+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.844 seconds
+[2023-10-22T02:06:23.381+0300] {processor.py:157} INFO - Started process (PID=159913) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:06:23.382+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:06:23.383+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:06:23.383+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:06:23.970+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:06:23.988+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:06:23.988+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:06:23.988+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:06:23.998+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:06:23.998+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:06:23.998+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:06:24.009+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.633 seconds
+[2023-10-22T02:06:54.922+0300] {processor.py:157} INFO - Started process (PID=159986) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:06:54.923+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:06:54.925+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:06:54.924+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:06:55.457+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:06:55.473+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:06:55.473+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:06:55.474+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:06:55.484+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:06:55.484+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:06:55.484+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:06:55.493+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.577 seconds
+[2023-10-22T02:07:26.279+0300] {processor.py:157} INFO - Started process (PID=160086) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:07:26.280+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:07:26.282+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:07:26.281+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:07:26.851+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:07:26.869+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:07:26.869+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:07:26.870+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:07:26.880+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:07:26.880+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:07:26.880+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:07:26.891+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.618 seconds
+[2023-10-22T02:07:57.616+0300] {processor.py:157} INFO - Started process (PID=160169) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:07:57.617+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:07:57.618+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:07:57.618+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:07:58.268+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:07:58.289+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:07:58.288+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:07:58.289+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:07:58.301+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:07:58.301+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:07:58.301+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:07:58.311+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.698 seconds
+[2023-10-22T02:08:29.047+0300] {processor.py:157} INFO - Started process (PID=160246) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:08:29.050+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:08:29.051+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:08:29.050+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:08:29.629+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:08:29.647+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:08:29.646+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:08:29.647+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:08:29.658+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:08:29.658+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:08:29.658+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:08:29.667+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.624 seconds
+[2023-10-22T02:09:00.505+0300] {processor.py:157} INFO - Started process (PID=160322) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:09:00.508+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:09:00.509+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:09:00.508+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:09:01.108+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:09:01.129+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:09:01.129+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:09:01.129+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:09:01.139+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:09:01.139+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:09:01.139+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:09:01.150+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.651 seconds
+[2023-10-22T02:09:31.857+0300] {processor.py:157} INFO - Started process (PID=160398) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:09:31.858+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:09:31.859+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:09:31.858+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:09:32.403+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:09:32.421+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:09:32.421+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:09:32.421+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:09:32.432+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:09:32.432+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:09:32.432+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:09:32.441+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.587 seconds
+[2023-10-22T02:10:03.166+0300] {processor.py:157} INFO - Started process (PID=160471) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:10:03.168+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:10:03.169+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:10:03.168+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:10:03.674+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:10:03.692+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:10:03.692+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:10:03.693+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:10:03.703+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:10:03.702+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:10:03.703+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:10:03.713+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.552 seconds
+[2023-10-22T02:10:34.531+0300] {processor.py:157} INFO - Started process (PID=160547) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:10:34.532+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:10:34.533+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:10:34.532+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:10:35.124+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:10:35.146+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:10:35.145+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:10:35.146+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:10:35.156+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:10:35.156+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:10:35.156+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:10:35.166+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.639 seconds
+[2023-10-22T02:11:06.066+0300] {processor.py:157} INFO - Started process (PID=160620) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:11:06.068+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:11:06.068+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:11:06.068+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:11:06.687+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:11:06.708+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:11:06.707+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:11:06.708+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:11:06.720+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:11:06.720+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:11:06.720+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:11:06.731+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.669 seconds
+[2023-10-22T02:11:37.433+0300] {processor.py:157} INFO - Started process (PID=160701) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:11:37.434+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:11:37.435+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:11:37.434+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:11:37.949+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:11:37.968+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:11:37.968+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:11:37.969+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:11:37.978+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:11:37.978+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:11:37.979+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:11:37.987+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.558 seconds
+[2023-10-22T02:12:08.739+0300] {processor.py:157} INFO - Started process (PID=160774) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:12:08.740+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:12:08.742+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:12:08.741+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:12:09.232+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:12:09.249+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:12:09.249+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:12:09.249+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:12:09.258+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:12:09.258+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:12:09.258+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:12:09.267+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.534 seconds
+[2023-10-22T02:12:40.038+0300] {processor.py:157} INFO - Started process (PID=160849) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:12:40.040+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:12:40.041+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:12:40.041+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:12:40.554+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:12:40.572+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:12:40.572+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:12:40.572+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:12:40.586+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:12:40.586+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:12:40.586+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:12:40.597+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.564 seconds
+[2023-10-22T02:13:11.358+0300] {processor.py:157} INFO - Started process (PID=160931) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:13:11.359+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:13:11.360+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:13:11.360+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:13:11.918+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:13:11.939+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:13:11.938+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:13:11.939+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:13:11.951+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:13:11.951+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:13:11.951+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:13:11.973+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.619 seconds
+[2023-10-22T02:13:42.823+0300] {processor.py:157} INFO - Started process (PID=161006) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:13:42.824+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:13:42.826+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:13:42.825+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:13:43.386+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:13:43.403+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:13:43.403+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:13:43.404+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:13:43.413+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:13:43.413+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:13:43.413+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:13:43.422+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.605 seconds
+[2023-10-22T02:14:14.211+0300] {processor.py:157} INFO - Started process (PID=161079) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:14:14.212+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:14:14.213+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:14:14.213+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:14:14.724+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:14:14.741+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:14:14.741+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:14:14.741+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:14:14.752+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:14:14.752+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:14:14.752+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:14:14.765+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.560 seconds
+[2023-10-22T02:14:45.445+0300] {processor.py:157} INFO - Started process (PID=161168) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:14:45.447+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:14:45.448+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:14:45.447+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:14:45.965+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:14:45.985+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:14:45.984+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:14:45.985+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:14:46.000+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:14:46.000+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:14:46.000+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:14:46.009+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.567 seconds
+[2023-10-22T02:15:16.865+0300] {processor.py:157} INFO - Started process (PID=161245) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:15:16.867+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:15:16.867+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:15:16.867+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:15:17.386+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:15:17.404+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:15:17.404+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:15:17.404+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:15:17.417+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:15:17.416+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:15:17.417+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:15:17.430+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.568 seconds
+[2023-10-22T02:15:48.173+0300] {processor.py:157} INFO - Started process (PID=161318) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:15:48.174+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:15:48.175+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:15:48.175+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:15:48.703+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:15:48.721+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:15:48.720+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:15:48.721+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:15:48.731+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:15:48.731+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:15:48.731+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:15:48.743+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.573 seconds
+[2023-10-22T02:16:19.603+0300] {processor.py:157} INFO - Started process (PID=161393) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:16:19.605+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:16:19.607+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:16:19.606+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:16:20.139+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:16:20.156+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:16:20.156+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:16:20.156+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:16:20.165+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:16:20.165+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:16:20.166+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:16:20.176+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.578 seconds
+[2023-10-22T02:16:51.005+0300] {processor.py:157} INFO - Started process (PID=161470) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:16:51.007+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:16:51.007+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:16:51.007+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:16:51.518+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:16:51.537+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:16:51.536+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:16:51.537+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:16:51.548+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:16:51.548+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:16:51.548+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:16:51.558+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.557 seconds
+[2023-10-22T02:17:22.336+0300] {processor.py:157} INFO - Started process (PID=161554) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:17:22.337+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:17:22.338+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:17:22.337+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:17:22.855+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:17:22.872+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:17:22.872+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:17:22.872+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:17:22.882+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:17:22.881+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:17:22.882+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:17:22.891+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.558 seconds
+[2023-10-22T02:17:53.671+0300] {processor.py:157} INFO - Started process (PID=161627) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:17:53.672+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:17:53.674+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:17:53.674+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:17:54.215+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:17:54.233+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:17:54.233+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:17:54.234+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:17:54.243+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:17:54.243+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:17:54.244+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:17:54.257+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.589 seconds
+[2023-10-22T02:18:25.063+0300] {processor.py:157} INFO - Started process (PID=161704) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:18:25.065+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:18:25.066+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:18:25.065+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:18:25.576+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:18:25.594+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:18:25.594+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:18:25.594+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:18:25.605+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:18:25.605+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:18:25.605+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:18:25.616+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.555 seconds
+[2023-10-22T02:18:56.550+0300] {processor.py:157} INFO - Started process (PID=161784) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:18:56.552+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:18:56.553+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:18:56.552+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:18:57.157+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:18:57.177+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:18:57.176+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:18:57.177+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:18:57.188+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:18:57.188+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:18:57.188+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:18:57.198+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.652 seconds
+[2023-10-22T02:19:27.981+0300] {processor.py:157} INFO - Started process (PID=161861) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:19:27.982+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:19:27.983+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:19:27.982+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:19:28.602+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:19:28.622+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:19:28.621+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:19:28.622+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:19:28.633+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:19:28.633+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:19:28.633+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:19:28.644+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.667 seconds
+[2023-10-22T02:19:59.407+0300] {processor.py:157} INFO - Started process (PID=161934) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:19:59.408+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:19:59.409+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:19:59.409+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:19:59.983+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:20:00.000+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:20:00.000+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:20:00.001+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:20:00.013+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:20:00.013+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:20:00.013+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:20:00.023+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.619 seconds
+[2023-10-22T02:20:30.822+0300] {processor.py:157} INFO - Started process (PID=162013) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:20:30.823+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:20:30.824+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:20:30.824+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:20:31.304+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:20:31.322+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:20:31.322+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:20:31.322+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:20:31.391+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:20:31.391+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:20:31.391+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:20:31.400+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.581 seconds
+[2023-10-22T02:21:02.095+0300] {processor.py:157} INFO - Started process (PID=162135) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:21:02.097+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:21:02.098+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:21:02.097+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:21:02.764+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:21:02.784+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:21:02.784+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:21:02.784+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:21:02.797+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:21:02.797+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:21:02.797+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:21:02.868+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.778 seconds
+[2023-10-22T02:21:33.682+0300] {processor.py:157} INFO - Started process (PID=162212) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:21:33.683+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:21:33.684+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:21:33.684+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:21:34.322+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:21:34.352+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:21:34.351+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:21:34.352+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:21:34.368+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:21:34.368+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:21:34.368+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:21:34.450+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.774 seconds
+[2023-10-22T02:22:05.288+0300] {processor.py:157} INFO - Started process (PID=162302) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:22:05.289+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:22:05.290+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:22:05.289+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:22:05.842+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:22:05.860+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:22:05.860+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:22:05.860+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:22:05.871+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:22:05.871+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:22:05.871+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:22:05.884+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.600 seconds
+[2023-10-22T02:22:36.875+0300] {processor.py:157} INFO - Started process (PID=162381) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:22:36.877+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:22:36.878+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:22:36.877+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:22:37.762+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:22:37.791+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:22:37.791+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:22:37.791+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:22:37.812+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:22:37.812+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:22:37.812+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:22:37.834+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.963 seconds
+[2023-10-22T02:23:08.831+0300] {processor.py:157} INFO - Started process (PID=162457) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:23:08.833+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:23:08.833+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:23:08.833+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:23:09.379+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:23:09.399+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:23:09.398+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:23:09.399+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:23:09.412+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:23:09.411+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:23:09.412+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:23:09.427+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.600 seconds
+[2023-10-22T02:23:40.310+0300] {processor.py:157} INFO - Started process (PID=162530) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:23:40.311+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:23:40.311+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:23:40.311+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:23:40.979+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:23:41.004+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:23:41.004+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:23:41.004+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:23:41.015+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:23:41.015+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:23:41.015+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:23:41.025+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.718 seconds
+[2023-10-22T02:24:11.809+0300] {processor.py:157} INFO - Started process (PID=162612) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:24:11.811+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:24:11.812+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:24:11.811+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:24:12.509+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:24:12.527+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:24:12.526+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:24:12.527+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:24:12.536+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:24:12.535+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:24:12.536+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:24:12.545+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.741 seconds
+[2023-10-22T02:24:43.488+0300] {processor.py:157} INFO - Started process (PID=162691) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:24:43.489+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:24:43.490+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:24:43.490+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:24:44.109+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:24:44.127+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:24:44.126+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:24:44.127+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:24:44.138+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:24:44.138+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:24:44.138+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:24:44.157+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.672 seconds
+[2023-10-22T02:25:15.098+0300] {processor.py:157} INFO - Started process (PID=162772) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:25:15.100+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:25:15.101+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:25:15.100+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:25:15.719+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:25:15.735+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:25:15.735+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:25:15.735+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:25:15.746+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:25:15.746+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:25:15.746+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:25:15.755+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.661 seconds
+[2023-10-22T02:25:46.583+0300] {processor.py:157} INFO - Started process (PID=162851) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:25:46.584+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:25:46.584+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:25:46.584+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:25:47.251+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:25:47.277+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:25:47.276+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:25:47.277+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:25:47.288+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:25:47.288+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:25:47.288+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:25:47.299+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.720 seconds
+[2023-10-22T02:26:18.090+0300] {processor.py:157} INFO - Started process (PID=162931) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:26:18.091+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:26:18.092+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:26:18.092+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:26:18.665+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:26:18.683+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:26:18.683+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:26:18.683+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:26:18.694+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:26:18.693+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:26:18.694+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:26:18.702+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.618 seconds
+[2023-10-22T02:26:49.626+0300] {processor.py:157} INFO - Started process (PID=163031) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:26:49.628+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:26:49.632+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:26:49.630+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:26:50.333+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:26:50.352+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:26:50.352+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:26:50.352+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:26:50.366+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:26:50.366+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:26:50.366+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:26:50.376+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.763 seconds
+[2023-10-22T02:27:20.884+0300] {processor.py:157} INFO - Started process (PID=163107) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:27:20.886+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:27:20.887+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:27:20.887+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:27:21.484+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:27:21.501+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:27:21.501+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:27:21.501+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:27:21.511+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:27:21.511+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:27:21.511+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:27:21.522+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.643 seconds
+[2023-10-22T02:27:51.565+0300] {processor.py:157} INFO - Started process (PID=163184) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:27:51.566+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:27:51.566+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:27:51.566+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:27:52.428+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:27:52.445+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:27:52.444+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:27:52.445+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:27:52.455+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:27:52.455+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:27:52.455+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:27:52.464+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.903 seconds
+[2023-10-22T02:28:23.402+0300] {processor.py:157} INFO - Started process (PID=163255) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:28:23.404+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:28:23.405+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:28:23.405+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:28:23.958+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:28:23.976+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:28:23.976+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:28:23.976+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:28:23.986+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:28:23.986+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:28:23.986+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:28:23.995+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.597 seconds
+[2023-10-22T02:28:54.083+0300] {processor.py:157} INFO - Started process (PID=163330) to work on /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:28:54.084+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py for tasks to queue
+[2023-10-22T02:28:54.085+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:28:54.084+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:28:54.591+0300] {processor.py:839} INFO - DAG(s) dict_keys(['3_models_dag']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py
+[2023-10-22T02:28:54.610+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:28:54.610+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-22T02:28:54.610+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-22T02:28:54.621+0300] {logging_mixin.py:151} INFO - [2023-10-22T02:28:54.621+0300] {dag.py:3696} INFO - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:28:54.621+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for 3_models_dag to 2023-10-20T01:00:00+00:00, run_after=2023-10-21T01:00:00+00:00
+[2023-10-22T02:28:54.632+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/example_lizvladi.py took 0.553 seconds

@@ -1,0 +1,939 @@
+[2023-10-20T11:10:38.460+0300] {processor.py:157} INFO - Started process (PID=87535) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T11:10:38.460+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T11:10:38.461+0300] {logging_mixin.py:151} INFO - [2023-10-20T11:10:38.461+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T11:10:40.193+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T11:10:40.264+0300] {logging_mixin.py:151} INFO - [2023-10-20T11:10:40.264+0300] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:test_dag_all_models_in_one' as access control is unset.
+[2023-10-20T11:10:40.264+0300] {logging_mixin.py:151} WARNING - Not syncing DAG-level permissions for DAG 'DAG:test_dag_all_models_in_one' as access control is unset.
+[2023-10-20T11:10:40.264+0300] {logging_mixin.py:151} INFO - [2023-10-20T11:10:40.264+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T11:10:40.264+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T11:10:40.278+0300] {logging_mixin.py:151} INFO - [2023-10-20T11:10:40.278+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T11:10:40.279+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T11:10:40.289+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.833 seconds
+[2023-10-20T11:45:40.708+0300] {processor.py:157} INFO - Started process (PID=88285) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T11:45:40.719+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T11:45:40.720+0300] {logging_mixin.py:151} INFO - [2023-10-20T11:45:40.719+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T11:45:42.318+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T11:45:42.372+0300] {logging_mixin.py:151} INFO - [2023-10-20T11:45:42.372+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T11:45:42.372+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T11:45:42.390+0300] {logging_mixin.py:151} INFO - [2023-10-20T11:45:42.390+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T11:45:42.390+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T11:45:42.407+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.711 seconds
+[2023-10-20T12:33:41.915+0300] {processor.py:157} INFO - Started process (PID=88435) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T12:33:41.916+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T12:33:41.917+0300] {logging_mixin.py:151} INFO - [2023-10-20T12:33:41.916+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T12:33:43.094+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T12:33:43.131+0300] {logging_mixin.py:151} INFO - [2023-10-20T12:33:43.130+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T12:33:43.132+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T12:33:43.164+0300] {logging_mixin.py:151} INFO - [2023-10-20T12:33:43.164+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T12:33:43.164+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T12:33:43.195+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.284 seconds
+[2023-10-20T12:34:13.632+0300] {processor.py:157} INFO - Started process (PID=88530) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T12:34:13.633+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T12:34:13.634+0300] {logging_mixin.py:151} INFO - [2023-10-20T12:34:13.634+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T12:34:14.143+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T12:34:14.161+0300] {logging_mixin.py:151} INFO - [2023-10-20T12:34:14.161+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T12:34:14.161+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T12:34:14.171+0300] {logging_mixin.py:151} INFO - [2023-10-20T12:34:14.171+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T12:34:14.171+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T12:34:14.179+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.552 seconds
+[2023-10-20T13:11:28.138+0300] {processor.py:157} INFO - Started process (PID=88638) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T13:11:28.138+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T13:11:28.139+0300] {logging_mixin.py:151} INFO - [2023-10-20T13:11:28.139+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T13:11:29.713+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T13:11:29.753+0300] {logging_mixin.py:151} INFO - [2023-10-20T13:11:29.753+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:11:29.753+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T13:11:29.777+0300] {logging_mixin.py:151} INFO - [2023-10-20T13:11:29.777+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T13:11:29.777+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T13:11:29.793+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.659 seconds
+[2023-10-20T13:28:47.290+0300] {processor.py:157} INFO - Started process (PID=97771) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T13:28:47.298+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T13:28:47.299+0300] {logging_mixin.py:151} INFO - [2023-10-20T13:28:47.299+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T13:28:49.630+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T13:28:49.656+0300] {logging_mixin.py:151} INFO - [2023-10-20T13:28:49.655+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:28:49.656+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T13:28:49.687+0300] {logging_mixin.py:151} INFO - [2023-10-20T13:28:49.687+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T13:28:49.687+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T13:28:49.697+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 2.410 seconds
+[2023-10-20T13:57:51.580+0300] {processor.py:157} INFO - Started process (PID=98892) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T13:57:51.590+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T13:57:51.591+0300] {logging_mixin.py:151} INFO - [2023-10-20T13:57:51.590+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T13:57:52.881+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T13:57:52.914+0300] {logging_mixin.py:151} INFO - [2023-10-20T13:57:52.913+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T13:57:52.914+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T13:57:52.926+0300] {logging_mixin.py:151} INFO - [2023-10-20T13:57:52.926+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T13:57:52.926+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T13:57:52.936+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.359 seconds
+[2023-10-20T14:34:17.523+0300] {processor.py:157} INFO - Started process (PID=98987) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T14:34:17.524+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T14:34:17.524+0300] {logging_mixin.py:151} INFO - [2023-10-20T14:34:17.524+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T14:34:18.024+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T14:34:18.040+0300] {logging_mixin.py:151} INFO - [2023-10-20T14:34:18.040+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:34:18.040+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T14:34:18.049+0300] {logging_mixin.py:151} INFO - [2023-10-20T14:34:18.049+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T14:34:18.049+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T14:34:18.059+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.539 seconds
+[2023-10-20T14:34:48.752+0300] {processor.py:157} INFO - Started process (PID=99752) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T14:34:48.754+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T14:34:48.755+0300] {logging_mixin.py:151} INFO - [2023-10-20T14:34:48.755+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T14:34:49.261+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T14:34:49.277+0300] {logging_mixin.py:151} INFO - [2023-10-20T14:34:49.277+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:34:49.277+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T14:34:49.286+0300] {logging_mixin.py:151} INFO - [2023-10-20T14:34:49.286+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T14:34:49.286+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T14:34:49.295+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.548 seconds
+[2023-10-20T14:57:00.285+0300] {processor.py:157} INFO - Started process (PID=99800) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T14:57:00.286+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T14:57:00.286+0300] {logging_mixin.py:151} INFO - [2023-10-20T14:57:00.286+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T14:57:01.557+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T14:57:01.849+0300] {logging_mixin.py:151} INFO - [2023-10-20T14:57:01.849+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T14:57:01.849+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T14:57:01.864+0300] {logging_mixin.py:151} INFO - [2023-10-20T14:57:01.864+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T14:57:01.865+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T14:57:01.931+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.647 seconds
+[2023-10-20T14:57:32.161+0300] {processor.py:157} INFO - Started process (PID=99906) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T14:57:32.161+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T14:57:32.162+0300] {logging_mixin.py:151} INFO - [2023-10-20T14:57:32.162+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T16:15:42.675+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T16:15:42.690+0300] {logging_mixin.py:151} INFO - [2023-10-20T16:15:42.690+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T16:15:42.690+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T16:15:42.699+0300] {logging_mixin.py:151} INFO - [2023-10-20T16:15:42.699+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T16:15:42.699+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T16:15:42.707+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.437 seconds
+[2023-10-20T16:16:12.804+0300] {processor.py:157} INFO - Started process (PID=100038) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T16:16:12.806+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T16:16:12.807+0300] {logging_mixin.py:151} INFO - [2023-10-20T16:16:12.807+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T16:16:13.239+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T16:16:13.254+0300] {logging_mixin.py:151} INFO - [2023-10-20T16:16:13.254+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T16:16:13.254+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T16:16:13.263+0300] {logging_mixin.py:151} INFO - [2023-10-20T16:16:13.263+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T16:16:13.263+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T16:16:13.273+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.475 seconds
+[2023-10-20T17:11:34.009+0300] {processor.py:157} INFO - Started process (PID=100065) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T17:11:34.014+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T17:11:34.014+0300] {logging_mixin.py:151} INFO - [2023-10-20T17:11:34.014+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T17:11:35.409+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T17:11:35.426+0300] {logging_mixin.py:151} INFO - [2023-10-20T17:11:35.426+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T17:11:35.426+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T17:11:35.438+0300] {logging_mixin.py:151} INFO - [2023-10-20T17:11:35.438+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T17:11:35.438+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T17:11:35.450+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.444 seconds
+[2023-10-20T17:31:18.173+0300] {processor.py:157} INFO - Started process (PID=100155) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T17:31:18.186+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T17:31:18.187+0300] {logging_mixin.py:151} INFO - [2023-10-20T17:31:18.186+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T17:31:19.411+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T17:31:19.427+0300] {logging_mixin.py:151} INFO - [2023-10-20T17:31:19.427+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T17:31:19.427+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T17:31:19.438+0300] {logging_mixin.py:151} INFO - [2023-10-20T17:31:19.438+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T17:31:19.438+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T17:31:19.454+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.286 seconds
+[2023-10-20T17:31:49.552+0300] {processor.py:157} INFO - Started process (PID=100252) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T17:31:49.554+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T17:31:49.555+0300] {logging_mixin.py:151} INFO - [2023-10-20T17:31:49.554+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T17:31:50.060+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T17:31:50.077+0300] {logging_mixin.py:151} INFO - [2023-10-20T17:31:50.077+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T17:31:50.077+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T17:31:50.087+0300] {logging_mixin.py:151} INFO - [2023-10-20T17:31:50.087+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T17:31:50.087+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T17:31:50.397+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.849 seconds
+[2023-10-20T18:11:37.238+0300] {processor.py:157} INFO - Started process (PID=100303) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T18:11:37.239+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T18:11:37.239+0300] {logging_mixin.py:151} INFO - [2023-10-20T18:11:37.239+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T18:11:38.259+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T18:11:38.319+0300] {logging_mixin.py:151} INFO - [2023-10-20T18:11:38.318+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T18:11:38.319+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T18:11:38.339+0300] {logging_mixin.py:151} INFO - [2023-10-20T18:11:38.339+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T18:11:38.339+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T18:11:38.351+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.116 seconds
+[2023-10-20T18:12:08.851+0300] {processor.py:157} INFO - Started process (PID=100453) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T18:12:08.852+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T18:12:08.853+0300] {logging_mixin.py:151} INFO - [2023-10-20T18:12:08.853+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T18:53:32.500+0300] {processor.py:157} INFO - Started process (PID=100612) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T18:53:32.501+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T18:53:32.502+0300] {logging_mixin.py:151} INFO - [2023-10-20T18:53:32.502+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T18:53:33.047+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T18:53:33.064+0300] {logging_mixin.py:151} INFO - [2023-10-20T18:53:33.064+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T18:53:33.064+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T18:53:33.074+0300] {logging_mixin.py:151} INFO - [2023-10-20T18:53:33.074+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T18:53:33.074+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T18:53:33.083+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.589 seconds
+[2023-10-20T19:51:49.632+0300] {processor.py:157} INFO - Started process (PID=100650) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T19:51:49.633+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T19:51:49.634+0300] {logging_mixin.py:151} INFO - [2023-10-20T19:51:49.633+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T19:51:50.657+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T19:51:50.681+0300] {logging_mixin.py:151} INFO - [2023-10-20T19:51:50.681+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T19:51:50.681+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T19:51:50.692+0300] {logging_mixin.py:151} INFO - [2023-10-20T19:51:50.692+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T19:51:50.692+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T19:51:50.705+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.078 seconds
+[2023-10-20T19:52:20.775+0300] {processor.py:157} INFO - Started process (PID=100818) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T19:52:20.777+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T19:52:20.778+0300] {logging_mixin.py:151} INFO - [2023-10-20T19:52:20.778+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T19:52:21.176+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T19:52:21.191+0300] {logging_mixin.py:151} INFO - [2023-10-20T19:52:21.190+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T19:52:21.191+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T19:52:21.200+0300] {logging_mixin.py:151} INFO - [2023-10-20T19:52:21.200+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T19:52:21.200+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T19:52:21.207+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.437 seconds
+[2023-10-20T20:14:29.205+0300] {processor.py:157} INFO - Started process (PID=100864) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T20:14:29.205+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T20:14:29.206+0300] {logging_mixin.py:151} INFO - [2023-10-20T20:14:29.206+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T20:14:30.072+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T20:14:30.089+0300] {logging_mixin.py:151} INFO - [2023-10-20T20:14:30.088+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T20:14:30.089+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T20:14:30.099+0300] {logging_mixin.py:151} INFO - [2023-10-20T20:14:30.099+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T20:14:30.099+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T20:14:30.114+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.913 seconds
+[2023-10-20T21:26:04.203+0300] {processor.py:157} INFO - Started process (PID=100962) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T21:26:04.204+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T21:26:04.205+0300] {logging_mixin.py:151} INFO - [2023-10-20T21:26:04.204+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T21:26:05.174+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T21:26:05.191+0300] {logging_mixin.py:151} INFO - [2023-10-20T21:26:05.190+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T21:26:05.191+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T21:26:05.203+0300] {logging_mixin.py:151} INFO - [2023-10-20T21:26:05.203+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T21:26:05.203+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T21:26:05.212+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.013 seconds
+[2023-10-20T21:26:35.268+0300] {processor.py:157} INFO - Started process (PID=101055) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T21:26:35.271+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T21:26:35.272+0300] {logging_mixin.py:151} INFO - [2023-10-20T21:26:35.271+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T21:26:35.701+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T21:26:35.717+0300] {logging_mixin.py:151} INFO - [2023-10-20T21:26:35.716+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T21:26:35.717+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T21:26:35.727+0300] {logging_mixin.py:151} INFO - [2023-10-20T21:26:35.727+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T21:26:35.727+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T21:26:35.736+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.473 seconds
+[2023-10-20T22:02:02.808+0300] {processor.py:157} INFO - Started process (PID=101109) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T22:02:02.827+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T22:02:02.828+0300] {logging_mixin.py:151} INFO - [2023-10-20T22:02:02.828+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T22:02:03.591+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T22:02:03.608+0300] {logging_mixin.py:151} INFO - [2023-10-20T22:02:03.608+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T22:02:03.608+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T22:02:03.619+0300] {logging_mixin.py:151} INFO - [2023-10-20T22:02:03.619+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T22:02:03.619+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T22:02:03.637+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.837 seconds
+[2023-10-20T22:02:33.781+0300] {processor.py:157} INFO - Started process (PID=101194) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T22:02:33.782+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T22:02:33.782+0300] {logging_mixin.py:151} INFO - [2023-10-20T22:02:33.782+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T23:07:49.848+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T23:08:20.200+0300] {processor.py:157} INFO - Started process (PID=101272) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T23:08:20.201+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-20T23:08:20.202+0300] {logging_mixin.py:151} INFO - [2023-10-20T23:08:20.202+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T23:08:20.725+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-20T23:08:20.741+0300] {logging_mixin.py:151} INFO - [2023-10-20T23:08:20.741+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-20T23:08:20.741+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-20T23:08:20.812+0300] {logging_mixin.py:151} INFO - [2023-10-20T23:08:20.812+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T23:08:20.812+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-20T23:08:20.820+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.624 seconds
+[2023-10-21T00:27:01.288+0300] {processor.py:157} INFO - Started process (PID=101414) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T00:27:01.288+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T00:27:01.289+0300] {logging_mixin.py:151} INFO - [2023-10-21T00:27:01.288+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T00:27:01.736+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T00:27:01.752+0300] {logging_mixin.py:151} INFO - [2023-10-21T00:27:01.751+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T00:27:01.752+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T00:27:01.760+0300] {logging_mixin.py:151} INFO - [2023-10-21T00:27:01.760+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T00:27:01.761+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T00:27:01.769+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.483 seconds
+[2023-10-21T00:27:32.220+0300] {processor.py:157} INFO - Started process (PID=101503) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T00:27:32.220+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T00:27:32.221+0300] {logging_mixin.py:151} INFO - [2023-10-21T00:27:32.221+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T00:27:32.716+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T00:27:32.734+0300] {logging_mixin.py:151} INFO - [2023-10-21T00:27:32.733+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T00:27:32.734+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T00:27:32.744+0300] {logging_mixin.py:151} INFO - [2023-10-21T00:27:32.743+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T00:27:32.744+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T00:27:32.753+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.535 seconds
+[2023-10-21T01:13:33.832+0300] {processor.py:157} INFO - Started process (PID=101552) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T01:13:33.833+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T01:13:33.833+0300] {logging_mixin.py:151} INFO - [2023-10-21T01:13:33.833+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T01:13:35.203+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T01:13:35.228+0300] {logging_mixin.py:151} INFO - [2023-10-21T01:13:35.228+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T01:13:35.228+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T01:13:35.239+0300] {logging_mixin.py:151} INFO - [2023-10-21T01:13:35.238+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T01:13:35.239+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T01:13:35.334+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 1.505 seconds
+[2023-10-21T01:14:05.424+0300] {processor.py:157} INFO - Started process (PID=101653) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T01:14:05.426+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T01:14:05.427+0300] {logging_mixin.py:151} INFO - [2023-10-21T01:14:05.427+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:20:57.818+0300] {processor.py:157} INFO - Started process (PID=101765) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:20:57.819+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:20:57.821+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:20:57.820+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:20:58.356+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:20:58.432+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:20:58.374+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:20:58.432+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:20:58.443+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:20:58.443+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:20:58.443+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:20:58.452+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.642 seconds
+[2023-10-21T02:21:29.065+0300] {processor.py:157} INFO - Started process (PID=101827) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:21:29.066+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:21:29.066+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:21:29.066+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:21:29.560+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:21:29.576+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:21:29.576+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:21:29.576+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:21:29.639+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:21:29.639+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:21:29.640+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:21:29.648+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.586 seconds
+[2023-10-21T02:22:00.146+0300] {processor.py:157} INFO - Started process (PID=101888) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:22:00.148+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:22:00.149+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:22:00.148+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:22:00.636+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:22:00.651+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:22:00.651+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:22:00.652+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:22:00.660+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:22:00.660+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:22:00.660+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:22:00.669+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.528 seconds
+[2023-10-21T02:22:31.182+0300] {processor.py:157} INFO - Started process (PID=101938) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:22:31.185+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:22:31.186+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:22:31.185+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:22:31.614+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:22:31.629+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:22:31.629+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:22:31.629+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:22:31.638+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:22:31.637+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:22:31.638+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:22:31.646+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.467 seconds
+[2023-10-21T02:23:02.223+0300] {processor.py:157} INFO - Started process (PID=101989) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:23:02.224+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:23:02.225+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:23:02.224+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:23:02.698+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:23:02.714+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:23:02.713+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:23:02.714+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:23:02.723+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:23:02.723+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:23:02.723+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:23:02.731+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.513 seconds
+[2023-10-21T02:23:33.247+0300] {processor.py:157} INFO - Started process (PID=102039) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:23:33.248+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:23:33.249+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:23:33.249+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:23:33.709+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:23:33.725+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:23:33.724+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:23:33.725+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:23:33.734+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:23:33.734+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:23:33.734+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:23:33.742+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.501 seconds
+[2023-10-21T02:24:04.241+0300] {processor.py:157} INFO - Started process (PID=102089) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:24:04.242+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:24:04.243+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:24:04.242+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:24:04.699+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:24:04.715+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:24:04.714+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:24:04.715+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:24:04.724+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:24:04.723+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:24:04.724+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:24:04.733+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.497 seconds
+[2023-10-21T02:24:35.320+0300] {processor.py:157} INFO - Started process (PID=102180) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:24:35.322+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:24:35.323+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:24:35.323+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:24:35.788+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:24:35.804+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:24:35.804+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:24:35.804+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:24:35.812+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:24:35.812+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:24:35.812+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:24:35.820+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.508 seconds
+[2023-10-21T02:25:06.339+0300] {processor.py:157} INFO - Started process (PID=102234) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:25:06.340+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:25:06.341+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:25:06.341+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:25:06.863+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:25:06.881+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:25:06.880+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:25:06.881+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:25:06.890+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:25:06.890+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:25:06.890+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:25:06.899+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.564 seconds
+[2023-10-21T02:25:37.355+0300] {processor.py:157} INFO - Started process (PID=102284) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:25:37.356+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:25:37.357+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:25:37.357+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:25:37.816+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:25:37.830+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:25:37.830+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:25:37.831+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:25:37.840+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:25:37.840+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:25:37.840+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:25:37.847+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.497 seconds
+[2023-10-21T02:26:08.363+0300] {processor.py:157} INFO - Started process (PID=102334) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:26:08.364+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:26:08.365+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:26:08.365+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:26:08.840+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:26:08.856+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:26:08.856+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:26:08.856+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:26:08.865+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:26:08.865+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:26:08.865+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:26:08.875+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.517 seconds
+[2023-10-21T02:26:39.320+0300] {processor.py:157} INFO - Started process (PID=102385) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:26:39.321+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:26:39.322+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:26:39.321+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:26:39.811+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:26:39.826+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:26:39.826+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:26:39.826+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:26:39.835+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:26:39.835+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:26:39.835+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:26:39.843+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.527 seconds
+[2023-10-21T02:27:10.274+0300] {processor.py:157} INFO - Started process (PID=102435) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:27:10.276+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:27:10.276+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:27:10.276+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:27:10.773+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:27:10.789+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:27:10.788+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:27:10.789+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:27:10.797+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:27:10.797+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:27:10.797+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:27:10.805+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.533 seconds
+[2023-10-21T02:27:41.357+0300] {processor.py:157} INFO - Started process (PID=102487) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:27:41.358+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:27:41.359+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:27:41.358+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:27:41.835+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:27:41.850+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:27:41.850+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:27:41.850+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:27:41.860+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:27:41.860+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:27:41.860+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:27:41.867+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.516 seconds
+[2023-10-21T02:28:12.342+0300] {processor.py:157} INFO - Started process (PID=102537) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:28:12.343+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:28:12.344+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:28:12.343+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:28:12.803+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:28:12.818+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:28:12.818+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:28:12.818+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:28:12.827+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:28:12.827+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:28:12.827+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:28:12.836+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.499 seconds
+[2023-10-21T02:28:43.329+0300] {processor.py:157} INFO - Started process (PID=102597) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:28:43.330+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:28:43.331+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:28:43.330+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:28:43.802+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:28:43.817+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:28:43.817+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:28:43.817+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:28:43.825+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:28:43.825+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:28:43.826+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:28:43.834+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.510 seconds
+[2023-10-21T02:29:14.388+0300] {processor.py:157} INFO - Started process (PID=102648) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:29:14.390+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:29:14.391+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:29:14.390+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:29:14.896+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:29:14.917+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:29:14.915+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:29:14.917+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:29:14.928+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:29:14.927+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:29:14.928+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:29:14.936+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.553 seconds
+[2023-10-21T02:29:45.474+0300] {processor.py:157} INFO - Started process (PID=102698) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:29:45.475+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:29:45.476+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:29:45.476+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:29:45.965+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:29:45.980+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:29:45.980+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:29:45.980+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:29:45.989+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:29:45.989+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:29:45.989+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:29:45.997+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.528 seconds
+[2023-10-21T02:30:16.650+0300] {processor.py:157} INFO - Started process (PID=102748) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:30:16.652+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:30:16.653+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:30:16.653+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:30:17.163+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:30:17.178+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:30:17.178+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:30:17.178+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:30:17.187+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:30:17.187+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:30:17.187+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:30:17.196+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.549 seconds
+[2023-10-21T02:30:47.702+0300] {processor.py:157} INFO - Started process (PID=102799) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:30:47.703+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:30:47.704+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:30:47.703+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:30:48.170+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:30:48.186+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:30:48.185+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:30:48.186+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:30:48.194+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:30:48.194+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:30:48.194+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:30:48.203+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.506 seconds
+[2023-10-21T02:31:18.634+0300] {processor.py:157} INFO - Started process (PID=102849) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:31:18.635+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:31:18.636+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:31:18.636+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:31:19.154+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:31:19.172+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:31:19.171+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:31:19.172+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:31:19.181+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:31:19.181+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:31:19.182+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:31:19.190+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.560 seconds
+[2023-10-21T02:31:49.686+0300] {processor.py:157} INFO - Started process (PID=102900) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:31:49.687+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:31:49.688+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:31:49.687+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:31:50.133+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:31:50.148+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:31:50.148+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:31:50.148+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:31:50.157+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:31:50.157+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:31:50.157+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:31:50.165+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.484 seconds
+[2023-10-21T02:32:20.732+0300] {processor.py:157} INFO - Started process (PID=102951) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:32:20.733+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:32:20.734+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:32:20.734+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:32:21.176+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:32:21.191+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:32:21.191+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:32:21.191+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:32:21.200+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:32:21.200+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:32:21.200+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:32:21.209+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.481 seconds
+[2023-10-21T02:32:51.706+0300] {processor.py:157} INFO - Started process (PID=103001) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:32:51.707+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:32:51.708+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:32:51.708+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:32:52.143+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:32:52.158+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:32:52.158+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:32:52.158+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:32:52.167+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:32:52.167+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:32:52.167+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:32:52.175+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.474 seconds
+[2023-10-21T02:33:22.686+0300] {processor.py:157} INFO - Started process (PID=103051) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:33:22.687+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:33:22.688+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:33:22.688+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:33:23.139+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:33:23.154+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:33:23.154+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:33:23.154+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:33:23.163+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:33:23.163+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:33:23.163+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:33:23.171+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.488 seconds
+[2023-10-21T02:33:53.811+0300] {processor.py:157} INFO - Started process (PID=103101) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:33:53.812+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:33:53.812+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:33:53.812+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:33:54.316+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:33:54.334+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:33:54.333+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:33:54.334+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:33:54.345+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:33:54.344+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:33:54.345+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:33:54.354+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.546 seconds
+[2023-10-21T02:34:24.669+0300] {processor.py:157} INFO - Started process (PID=103151) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:34:24.671+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:34:24.672+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:34:24.671+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:34:25.250+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:34:25.267+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:34:25.267+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:34:25.267+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:34:25.278+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:34:25.277+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:34:25.278+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:34:25.286+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.621 seconds
+[2023-10-21T02:34:55.714+0300] {processor.py:157} INFO - Started process (PID=103202) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:34:55.716+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:34:55.717+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:34:55.716+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:34:56.165+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:34:56.180+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:34:56.180+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:34:56.180+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:34:56.188+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:34:56.188+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:34:56.188+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:34:56.196+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.486 seconds
+[2023-10-21T02:35:26.667+0300] {processor.py:157} INFO - Started process (PID=103257) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:35:26.668+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:35:26.669+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:35:26.668+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:35:27.191+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:35:27.210+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:35:27.209+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:35:27.210+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:35:27.221+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:35:27.220+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:35:27.221+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:35:27.231+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.566 seconds
+[2023-10-21T02:35:57.617+0300] {processor.py:157} INFO - Started process (PID=103307) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:35:57.618+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:35:57.619+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:35:57.618+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:35:58.076+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:35:58.092+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:35:58.092+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:35:58.092+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:35:58.104+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:35:58.104+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:35:58.104+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:35:58.114+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.500 seconds
+[2023-10-21T02:36:28.575+0300] {processor.py:157} INFO - Started process (PID=103357) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:36:28.577+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:36:28.578+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:36:28.578+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:36:28.988+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:36:29.003+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:36:29.003+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:36:29.003+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:36:29.012+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:36:29.012+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:36:29.013+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:36:29.022+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.452 seconds
+[2023-10-21T02:36:59.485+0300] {processor.py:157} INFO - Started process (PID=103408) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:36:59.485+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:36:59.486+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:36:59.485+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:36:59.943+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:36:59.960+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:36:59.959+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:36:59.960+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:36:59.969+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:36:59.969+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:36:59.969+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:36:59.978+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.496 seconds
+[2023-10-21T02:37:30.282+0300] {processor.py:157} INFO - Started process (PID=103460) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:37:30.283+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:37:30.284+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:37:30.284+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:37:30.731+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:37:30.747+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:37:30.747+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:37:30.747+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:37:30.756+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:37:30.756+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:37:30.756+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:37:30.764+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.487 seconds
+[2023-10-21T02:38:01.219+0300] {processor.py:157} INFO - Started process (PID=103510) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:38:01.220+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:38:01.221+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:38:01.220+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:38:01.623+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:38:01.638+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:38:01.638+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:38:01.638+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:38:01.647+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:38:01.647+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:38:01.648+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:38:01.655+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.440 seconds
+[2023-10-21T02:38:32.145+0300] {processor.py:157} INFO - Started process (PID=103560) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:38:32.146+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:38:32.146+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:38:32.146+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:38:32.560+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:38:32.576+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:38:32.575+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:38:32.576+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:38:32.585+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:38:32.585+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:38:32.585+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:38:32.594+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.453 seconds
+[2023-10-21T02:39:03.098+0300] {processor.py:157} INFO - Started process (PID=103610) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:39:03.099+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:39:03.100+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:39:03.100+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:39:03.566+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:39:03.582+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:39:03.582+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:39:03.582+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:39:03.591+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:39:03.591+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:39:03.591+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:39:03.599+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.507 seconds
+[2023-10-21T02:39:33.988+0300] {processor.py:157} INFO - Started process (PID=103660) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:39:33.989+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:39:33.989+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:39:33.989+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:39:34.396+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:39:34.412+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:39:34.411+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:39:34.412+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:39:34.421+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:39:34.421+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:39:34.421+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:39:34.429+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.445 seconds
+[2023-10-21T02:40:04.963+0300] {processor.py:157} INFO - Started process (PID=103711) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:40:04.964+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:40:04.964+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:40:04.964+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:40:05.398+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:40:05.415+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:40:05.415+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:40:05.415+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:40:05.426+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:40:05.426+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:40:05.426+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:40:05.436+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.478 seconds
+[2023-10-21T02:40:35.929+0300] {processor.py:157} INFO - Started process (PID=103769) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:40:35.930+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:40:35.931+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:40:35.930+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:40:36.367+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:40:36.383+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:40:36.383+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:40:36.383+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:40:36.392+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:40:36.392+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:40:36.392+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:40:36.400+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.477 seconds
+[2023-10-21T02:41:06.881+0300] {processor.py:157} INFO - Started process (PID=103819) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:41:06.882+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:41:06.883+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:41:06.883+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:41:07.376+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:41:07.392+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:41:07.392+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:41:07.393+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:41:07.402+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:41:07.402+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:41:07.402+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:41:07.410+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.534 seconds
+[2023-10-21T02:41:37.834+0300] {processor.py:157} INFO - Started process (PID=103869) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:41:37.835+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:41:37.836+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:41:37.836+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:41:38.239+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:41:38.254+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:41:38.254+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:41:38.255+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:41:38.265+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:41:38.265+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:41:38.265+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:41:38.274+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.444 seconds
+[2023-10-21T02:42:08.780+0300] {processor.py:157} INFO - Started process (PID=103922) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:42:08.781+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:42:08.782+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:42:08.782+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:42:09.180+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:42:09.195+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:42:09.195+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:42:09.195+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:42:09.204+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:42:09.204+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:42:09.204+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:42:09.212+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.437 seconds
+[2023-10-21T02:42:39.725+0300] {processor.py:157} INFO - Started process (PID=103972) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:42:39.726+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:42:39.728+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:42:39.727+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:42:40.127+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:42:40.142+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:42:40.142+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:42:40.143+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:42:40.151+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:42:40.151+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:42:40.151+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:42:40.158+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.438 seconds
+[2023-10-21T02:43:10.654+0300] {processor.py:157} INFO - Started process (PID=104022) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:43:10.655+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:43:10.656+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:43:10.656+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:43:11.073+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:43:11.089+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:43:11.088+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:43:11.089+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:43:11.097+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:43:11.097+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:43:11.097+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:43:11.105+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.455 seconds
+[2023-10-21T02:43:41.591+0300] {processor.py:157} INFO - Started process (PID=104072) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:43:41.592+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:43:41.593+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:43:41.592+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:43:41.995+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:43:42.010+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:43:42.010+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:43:42.011+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:43:42.020+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:43:42.020+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:43:42.020+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:43:42.029+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.443 seconds
+[2023-10-21T02:44:12.534+0300] {processor.py:157} INFO - Started process (PID=104122) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:44:12.535+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:44:12.536+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:44:12.535+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:44:12.945+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:44:12.960+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:44:12.959+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:44:12.960+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:44:12.968+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:44:12.968+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:44:12.968+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:44:12.976+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.448 seconds
+[2023-10-21T02:44:43.523+0300] {processor.py:157} INFO - Started process (PID=104172) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:44:43.524+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:44:43.525+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:44:43.525+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:44:43.976+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:44:43.992+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:44:43.992+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:44:43.992+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:44:44.001+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:44:44.001+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:44:44.002+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:44:44.010+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.492 seconds
+[2023-10-21T02:45:14.474+0300] {processor.py:157} INFO - Started process (PID=104228) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:45:14.475+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:45:14.476+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:45:14.476+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:45:14.888+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:45:14.904+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:45:14.904+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:45:14.904+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:45:14.912+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:45:14.912+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:45:14.913+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:45:14.920+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.450 seconds
+[2023-10-21T02:45:45.407+0300] {processor.py:157} INFO - Started process (PID=104278) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:45:45.409+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:45:45.410+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:45:45.409+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:45:45.829+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:45:45.846+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:45:45.846+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:45:45.846+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:45:45.857+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:45:45.856+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:45:45.857+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:45:45.865+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.462 seconds
+[2023-10-21T02:46:16.335+0300] {processor.py:157} INFO - Started process (PID=104328) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:46:16.336+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:46:16.337+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:46:16.336+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:46:16.865+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:46:16.881+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:46:16.881+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:46:16.881+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:46:16.890+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:46:16.890+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:46:16.890+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:46:16.899+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.569 seconds
+[2023-10-21T02:46:47.348+0300] {processor.py:157} INFO - Started process (PID=104378) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:46:47.350+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:46:47.350+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:46:47.350+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:46:47.881+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:46:47.897+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:46:47.897+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:46:47.897+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:46:47.906+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:46:47.906+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:46:47.906+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:46:47.916+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.573 seconds
+[2023-10-21T02:47:18.417+0300] {processor.py:157} INFO - Started process (PID=104429) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:47:18.418+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:47:18.419+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:47:18.418+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:47:18.826+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:47:18.842+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:47:18.842+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:47:18.842+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:47:18.851+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:47:18.851+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:47:18.851+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:47:18.858+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.447 seconds
+[2023-10-21T02:47:49.350+0300] {processor.py:157} INFO - Started process (PID=104481) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:47:49.351+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:47:49.352+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:47:49.352+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:47:49.793+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:47:49.811+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:47:49.810+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:47:49.811+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:47:49.821+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:47:49.821+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:47:49.821+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:47:49.829+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.484 seconds
+[2023-10-21T02:48:20.324+0300] {processor.py:157} INFO - Started process (PID=104531) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:48:20.325+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:48:20.326+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:48:20.326+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:48:20.728+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:48:20.743+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:48:20.743+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:48:20.744+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:48:20.752+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:48:20.752+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:48:20.752+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:48:20.760+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.441 seconds
+[2023-10-21T02:48:51.224+0300] {processor.py:157} INFO - Started process (PID=104581) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:48:51.225+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:48:51.227+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:48:51.226+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:48:51.638+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:48:51.653+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:48:51.652+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:48:51.653+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:48:51.661+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:48:51.661+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:48:51.661+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:48:51.669+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.450 seconds
+[2023-10-21T02:49:22.225+0300] {processor.py:157} INFO - Started process (PID=104632) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:49:22.227+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:49:22.228+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:49:22.227+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:49:22.637+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:49:22.653+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:49:22.653+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:49:22.653+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:49:22.661+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:49:22.661+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:49:22.661+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:49:22.669+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.448 seconds
+[2023-10-21T02:49:53.158+0300] {processor.py:157} INFO - Started process (PID=104682) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:49:53.160+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:49:53.160+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:49:53.160+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:49:53.672+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:49:53.690+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:49:53.689+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:49:53.690+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:49:53.701+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:49:53.701+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:49:53.701+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:49:53.710+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.556 seconds
+[2023-10-21T02:50:24.117+0300] {processor.py:157} INFO - Started process (PID=104734) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:50:24.118+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:50:24.119+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:50:24.118+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:50:24.549+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:50:24.566+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:50:24.566+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:50:24.566+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:50:24.575+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:50:24.575+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:50:24.575+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:50:24.585+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.472 seconds
+[2023-10-21T02:50:55.111+0300] {processor.py:157} INFO - Started process (PID=104787) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:50:55.112+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:50:55.113+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:50:55.113+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:50:55.582+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:50:55.598+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:50:55.598+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:50:55.598+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:50:55.607+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:50:55.607+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:50:55.607+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:50:55.616+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.510 seconds
+[2023-10-21T02:51:26.100+0300] {processor.py:157} INFO - Started process (PID=104837) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:51:26.102+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:51:26.102+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:51:26.102+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:51:26.592+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:51:26.608+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:51:26.608+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:51:26.608+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:51:26.617+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:51:26.617+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:51:26.618+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:51:26.629+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.533 seconds
+[2023-10-21T02:51:57.154+0300] {processor.py:157} INFO - Started process (PID=104890) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:51:57.156+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:51:57.156+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:51:57.156+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:51:57.561+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:51:57.576+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:51:57.575+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:51:57.576+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:51:57.585+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:51:57.585+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:51:57.585+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:51:57.593+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.444 seconds
+[2023-10-21T02:52:28.129+0300] {processor.py:157} INFO - Started process (PID=104940) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:52:28.131+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:52:28.132+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:52:28.131+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:52:28.531+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:52:28.547+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:52:28.546+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:52:28.547+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:52:28.555+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:52:28.555+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:52:28.555+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:52:28.564+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.439 seconds
+[2023-10-21T02:52:59.095+0300] {processor.py:157} INFO - Started process (PID=104990) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:52:59.097+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:52:59.098+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:52:59.097+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:52:59.505+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:52:59.520+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:52:59.520+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:52:59.520+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:52:59.528+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:52:59.528+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:52:59.528+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:52:59.536+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.445 seconds
+[2023-10-21T02:53:30.077+0300] {processor.py:157} INFO - Started process (PID=105041) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:53:30.079+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:53:30.079+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:53:30.079+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:53:30.488+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:53:30.504+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:53:30.504+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:53:30.504+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:53:30.512+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:53:30.512+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:53:30.513+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:53:30.520+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.448 seconds
+[2023-10-21T02:54:01.069+0300] {processor.py:157} INFO - Started process (PID=105091) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:54:01.070+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:54:01.071+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:54:01.071+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:54:01.483+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:54:01.499+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:54:01.498+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:54:01.499+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:54:01.571+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:54:01.571+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:54:01.571+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:54:01.581+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.517 seconds
+[2023-10-21T02:54:32.125+0300] {processor.py:157} INFO - Started process (PID=105141) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:54:32.126+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:54:32.128+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:54:32.127+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:54:32.529+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:54:32.544+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:54:32.543+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:54:32.544+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:54:32.552+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:54:32.552+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:54:32.552+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:54:32.614+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.495 seconds
+[2023-10-21T02:55:03.132+0300] {processor.py:157} INFO - Started process (PID=105196) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:55:03.134+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:55:03.135+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:55:03.134+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:55:03.544+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:55:03.559+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:55:03.558+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:55:03.559+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:55:03.567+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:55:03.567+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:55:03.567+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:55:03.575+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.447 seconds
+[2023-10-21T02:55:34.114+0300] {processor.py:157} INFO - Started process (PID=105246) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:55:34.115+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:55:34.116+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:55:34.116+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:55:34.581+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:55:34.650+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:55:34.598+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:55:34.650+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:55:34.660+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:55:34.660+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:55:34.660+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:55:34.668+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.559 seconds
+[2023-10-21T02:56:05.131+0300] {processor.py:157} INFO - Started process (PID=105296) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:56:05.133+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:56:05.133+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:56:05.133+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:56:05.589+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:56:05.604+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:56:05.604+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:56:05.604+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:56:05.613+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:56:05.613+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:56:05.613+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:56:05.622+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.497 seconds
+[2023-10-21T02:56:36.118+0300] {processor.py:157} INFO - Started process (PID=105347) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:56:36.120+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:56:36.121+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:56:36.120+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:56:36.621+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:56:36.637+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:56:36.637+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:56:36.637+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:56:36.646+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:56:36.646+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:56:36.647+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:56:36.656+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.542 seconds
+[2023-10-21T02:57:07.113+0300] {processor.py:157} INFO - Started process (PID=105397) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:57:07.114+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:57:07.115+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:57:07.115+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:57:07.620+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:57:07.635+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:57:07.635+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:57:07.635+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:57:07.644+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:57:07.644+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:57:07.644+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:57:07.653+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.544 seconds
+[2023-10-21T02:57:38.167+0300] {processor.py:157} INFO - Started process (PID=105447) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:57:38.168+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:57:38.169+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:57:38.169+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:57:38.623+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:57:38.639+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:57:38.638+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:57:38.639+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:57:38.648+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:57:38.648+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:57:38.648+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:57:38.656+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.491 seconds
+[2023-10-21T02:58:09.119+0300] {processor.py:157} INFO - Started process (PID=105498) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:58:09.120+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:58:09.120+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:58:09.120+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:58:09.607+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:58:09.622+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:58:09.622+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:58:09.622+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:58:09.632+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:58:09.632+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:58:09.632+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:58:09.640+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.526 seconds
+[2023-10-21T02:58:40.113+0300] {processor.py:157} INFO - Started process (PID=105548) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:58:40.114+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:58:40.115+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:58:40.114+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:58:40.678+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:58:40.695+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:58:40.695+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:58:40.695+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:58:40.705+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:58:40.705+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:58:40.705+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:58:40.716+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.607 seconds
+[2023-10-21T02:59:11.239+0300] {processor.py:157} INFO - Started process (PID=105598) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:59:11.241+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:59:11.241+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:59:11.241+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:59:11.854+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:59:11.870+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:59:11.869+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:59:11.870+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:59:11.879+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:59:11.879+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:59:11.879+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:59:11.887+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.652 seconds
+[2023-10-21T02:59:42.857+0300] {processor.py:157} INFO - Started process (PID=105648) to work on /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:59:42.859+0300] {processor.py:829} INFO - Processing file /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py for tasks to queue
+[2023-10-21T02:59:42.860+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:59:42.859+0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:59:43.420+0300] {processor.py:839} INFO - DAG(s) dict_keys(['test_dag_all_models_in_one']) retrieved from /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py
+[2023-10-21T02:59:43.437+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:59:43.436+0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-21T02:59:43.437+0300] {logging_mixin.py:151} WARNING - Sync 1 DAGs
+[2023-10-21T02:59:43.448+0300] {logging_mixin.py:151} INFO - [2023-10-21T02:59:43.448+0300] {dag.py:3696} INFO - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:59:43.448+0300] {logging_mixin.py:151} WARNING - Setting next_dagrun for test_dag_all_models_in_one to 2023-10-19T01:00:00+00:00, run_after=2023-10-20T01:00:00+00:00
+[2023-10-21T02:59:43.456+0300] {processor.py:179} INFO - Processing /home/dsbulgako1/my_repos/mlops_project/dags/test_dag_several_parallel_model_train.py took 0.604 seconds

@@ -1,0 +1,29 @@
+[2023-10-22T21:13:56.892+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dm1trybu.init scheduled__2023-10-21T09:45:00+00:00 [queued]>
+[2023-10-22T21:13:56.896+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dm1trybu.init scheduled__2023-10-21T09:45:00+00:00 [queued]>
+[2023-10-22T21:13:56.896+0300] {taskinstance.py:1359} INFO - Starting attempt 18 of 20
+[2023-10-22T21:13:56.903+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): init> on 2023-10-21 09:45:00+00:00
+[2023-10-22T21:13:56.909+0300] {standard_task_runner.py:57} INFO - Started process 218512 to run task
+[2023-10-22T21:13:56.912+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dm1trybu', 'init', 'scheduled__2023-10-21T09:45:00+00:00', '--job-id', '134', '--raw', '--subdir', 'DAGS_FOLDER/final_dag_3_models.py', '--cfg-path', '/tmp/tmpovcygp3j']
+[2023-10-22T21:13:56.913+0300] {standard_task_runner.py:85} INFO - Job 134: Subtask init
+[2023-10-22T21:13:56.954+0300] {task_command.py:415} INFO - Running <TaskInstance: dm1trybu.init scheduled__2023-10-21T09:45:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-22T21:13:57.013+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@bk.ru' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='dm1trybu' AIRFLOW_CTX_TASK_ID='init' AIRFLOW_CTX_EXECUTION_DATE='2023-10-21T09:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='18' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-21T09:45:00+00:00'
+[2023-10-22T21:13:57.014+0300] {final_dag_3_models.py:72} INFO - Initializing dag and collecting meta-data...
+[2023-10-22T21:13:57.014+0300] {final_dag_3_models.py:82} INFO - Trying to set new experiment...
+[2023-10-22T21:13:57.183+0300] {migration.py:213} INFO - Context impl PostgresqlImpl.
+[2023-10-22T21:13:57.183+0300] {migration.py:216} INFO - Will assume transactional DDL.
+[2023-10-22T21:13:57.216+0300] {final_dag_3_models.py:92} INFO - Experiment 'dm1trybu' already exists in MLFlow.
+[2023-10-22T21:13:57.218+0300] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/dsbulgako1/my_repos/mlops_project/dags/final_dag_3_models.py", line 95, in init
+    mlflow.set_experiment(metrics["experiment_name"])
+  File "/home/dsbulgako1/my_repos/mlops_project/env/lib/python3.10/site-packages/mlflow/tracking/fluent.py", line 148, in set_experiment
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Cannot set a deleted experiment 'dm1trybu' as the active experiment. You can restore the experiment, or permanently delete the experiment to create a new one.
+[2023-10-22T21:13:57.229+0300] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=dm1trybu, task_id=init, execution_date=20231021T094500, start_date=20231022T181356, end_date=20231022T181357
+[2023-10-22T21:13:57.239+0300] {standard_task_runner.py:104} ERROR - Failed to execute job 134 for task init (Cannot set a deleted experiment 'dm1trybu' as the active experiment. You can restore the experiment, or permanently delete the experiment to create a new one.; 218512)
+[2023-10-22T21:13:57.287+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-22T21:13:57.306+0300] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

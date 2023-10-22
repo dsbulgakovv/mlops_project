@@ -1,0 +1,19 @@
+[2023-10-22T22:05:56.488+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dm1trybu.init scheduled__2023-10-21T09:45:00+00:00 [queued]>
+[2023-10-22T22:05:56.493+0300] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dm1trybu.init scheduled__2023-10-21T09:45:00+00:00 [queued]>
+[2023-10-22T22:05:56.493+0300] {taskinstance.py:1359} INFO - Starting attempt 26 of 29
+[2023-10-22T22:05:56.499+0300] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): init> on 2023-10-21 09:45:00+00:00
+[2023-10-22T22:05:56.504+0300] {standard_task_runner.py:57} INFO - Started process 228065 to run task
+[2023-10-22T22:05:56.506+0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'dm1trybu', 'init', 'scheduled__2023-10-21T09:45:00+00:00', '--job-id', '152', '--raw', '--subdir', 'DAGS_FOLDER/final_dag_3_models.py', '--cfg-path', '/tmp/tmp9hgawlji']
+[2023-10-22T22:05:56.508+0300] {standard_task_runner.py:85} INFO - Job 152: Subtask init
+[2023-10-22T22:05:56.552+0300] {task_command.py:415} INFO - Running <TaskInstance: dm1trybu.init scheduled__2023-10-21T09:45:00+00:00 [running]> on host dsbulgako1-QEMU-Virtual-Machine
+[2023-10-22T22:05:56.619+0300] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='dmitrii.bulghakov@bk.ru' AIRFLOW_CTX_DAG_OWNER='Dmitry Bulgakov' AIRFLOW_CTX_DAG_ID='dm1trybu' AIRFLOW_CTX_TASK_ID='init' AIRFLOW_CTX_EXECUTION_DATE='2023-10-21T09:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='26' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-21T09:45:00+00:00'
+[2023-10-22T22:05:56.619+0300] {final_dag_3_models.py:72} INFO - Initializing dag and collecting meta-data...
+[2023-10-22T22:05:56.620+0300] {final_dag_3_models.py:82} INFO - Trying to set new experiment...
+[2023-10-22T22:05:56.674+0300] {migration.py:213} INFO - Context impl PostgresqlImpl.
+[2023-10-22T22:05:56.675+0300] {migration.py:216} INFO - Will assume transactional DDL.
+[2023-10-22T22:05:56.689+0300] {final_dag_3_models.py:88} INFO - Experiment 'dm1trybu' created successfully!
+[2023-10-22T22:05:56.696+0300] {final_dag_3_models.py:98} INFO - Creating parent run in MLFlow.
+[2023-10-22T22:05:57.016+0300] {python.py:194} INFO - Done. Returned value was: {'start_tiemstamp': '20231022 22:05', 'parent_run_name': 'parent_3_models', 'experiment_name': 'dm1trybu', 'experiment_id': '33', 'parent_run_id': '212ae9039a0b4dd8a51f6c3425799562'}
+[2023-10-22T22:05:57.045+0300] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=dm1trybu, task_id=init, execution_date=20231021T094500, start_date=20231022T190556, end_date=20231022T190557
+[2023-10-22T22:05:57.080+0300] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-22T22:05:57.099+0300] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
